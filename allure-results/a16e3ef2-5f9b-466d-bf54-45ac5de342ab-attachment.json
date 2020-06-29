@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//*[@id=\"map_zoom_slider\"]/div[1]/span"
+}

@@ -1,0 +1,129 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1593080221362' stop='1593080263058'>
+    <name>Interacting with elements</name>
+    <title>Interacting with elements</title>
+    <test-cases>
+        <test-case start='1593080221362' status='failed' stop='1593080263056'>
+            <name>Login to testfieldbook</name>
+            <title>Login to testfieldbook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1593080221449' status='passed' stop='1593080243687'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='e27f519d-7a03-419c-9e44-cb01bacbb4b8-attachment.json' type='application/json' size='49'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1593080243691' status='passed' stop='1593080243749'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='5b8e4adb-ce73-484c-9c97-78236072a2c1-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='02f60c03-8f62-4162-b512-bb61e41e913e-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1593080243760' status='passed' stop='1593080243899'>
+                    <name>POST /session/:sessionId/element/f535ae16-839e-4543-90db-e52722c3b338/clear</name>
+                    <title>POST /session/:sessionId/element/f535ae16-839e-4543-90db-e52722c3b338/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1593080243903' status='passed' stop='1593080244084'>
+                    <name>POST /session/:sessionId/element/f535ae16-839e-4543-90db-e52722c3b338/value</name>
+                    <title>POST /session/:sessionId/element/f535ae16-839e-4543-90db-e52722c3b338/value</title>
+                    <attachments>
+                        <attachment title='Request' source='f97485d5-2496-4ced-b240-faab1071ba75-attachment.json' type='application/json' size='23'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1593080244085' status='passed' stop='1593080244112'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='bc87129f-18de-4591-a486-64b856373914-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='9572a205-e454-434a-81b7-e1ab9675c550-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1593080244116' status='passed' stop='1593080244171'>
+                    <name>POST /session/:sessionId/element/a15615c2-76bc-4d46-a962-8ef9dd436af7/clear</name>
+                    <title>POST /session/:sessionId/element/a15615c2-76bc-4d46-a962-8ef9dd436af7/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1593080244173' status='passed' stop='1593080244313'>
+                    <name>POST /session/:sessionId/element/a15615c2-76bc-4d46-a962-8ef9dd436af7/value</name>
+                    <title>POST /session/:sessionId/element/a15615c2-76bc-4d46-a962-8ef9dd436af7/value</title>
+                    <attachments>
+                        <attachment title='Request' source='6c4ecf44-f90d-460c-89e0-bb4191e50b5d-attachment.json' type='application/json' size='26'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1593080244313' status='passed' stop='1593080244351'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='4e53860f-79e8-422a-bb40-a519da224bd4-attachment.json' type='application/json' size='66'/>
+                        <attachment title='Response' source='b6acc81a-d67e-43ca-afcd-65600bb128a4-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1593080244353' status='passed' stop='1593080252018'>
+                    <name>POST /session/:sessionId/element/40e398dd-3e3b-4402-a17d-cf83483b26ee/click</name>
+                    <title>POST /session/:sessionId/element/40e398dd-3e3b-4402-a17d-cf83483b26ee/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1593080252021' status='passed' stop='1593080252308'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='5f32dda8-b3e4-403c-a1ba-acee08440b29-attachment.json' type='application/json' size='97'/>
+                        <attachment title='Response' source='d364fdd6-98d2-4f0b-9473-48061dddfb76-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1593080252315' status='passed' stop='1593080252461'>
+                    <name>POST /session/:sessionId/element/7ee095b0-01f4-450e-b483-f7c55355b208/click</name>
+                    <title>POST /session/:sessionId/element/7ee095b0-01f4-450e-b483-f7c55355b208/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1593080262464' status='passed' stop='1593080262614'>
+                    <name>GET /session/:sessionId/title</name>
+                    <title>GET /session/:sessionId/title</title>
+                    <attachments>
+                        <attachment title='Response' source='edba08da-c6e9-4997-acca-f3aa8dcb5920-attachment.json' type='application/json' size='28'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1593080262617' status='passed' stop='1593080263053'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='8409b23c-e729-44c8-86de-65022f1843d0-attachment.png' type='image/png' size='44489'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expected 'Home Page | Mott MacDonald' to equal 'South Jersey Gas'</message>
+                <stack-trace>AssertionError: expected 'Home Page | Mott MacDonald' to equal 'South Jersey Gas'
+                    at Context.&lt;anonymous> (C:\Users\Alok's\Documents\WebDriverIO\test\element.test.js:13:36)
+                    at Context.executeSync (C:\Users\Alok's\Documents\WebDriverIO\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\Alok's\Documents\WebDriverIO\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

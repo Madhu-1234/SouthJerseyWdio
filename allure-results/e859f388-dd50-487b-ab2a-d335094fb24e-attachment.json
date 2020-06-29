@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//*[@id=\"galleryNode_DarkGrayCanvas\"]/a/img"
+}
