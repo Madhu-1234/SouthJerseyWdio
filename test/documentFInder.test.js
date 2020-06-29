@@ -8,7 +8,7 @@ describe("Verifying document finder count displayed", function(){
     it("verify main asbuilt count by town and street", ()=>{
 
         browser.url('/')
-        homePagePages.homePageSubmit('mmishra' , 'password=1')
+        homePagePages.homePageSubmit('' , '')
         homePagePages.clickSJGTest()
         browser.pause(20000)
         browser.switchWindow('South Jersey Gas')
