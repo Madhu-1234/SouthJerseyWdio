@@ -4,9 +4,7 @@ describe("Interacting with elements" , function(){
     it("Login to testfieldbook", ()=>{
 
         browser.url('/')
-        //homePagePages.username.setValue('mmishra')
-        //homePagePages.password.setValue('password=1')
-        homePagePages.homePageSubmit('mmishra' , 'password=1')
+        homePagePages.homePageSubmit('' , '')
         homePagePages.clickSJGTest()
         browser.pause(20000)
         browser.switchWindow('South Jersey Gas')
