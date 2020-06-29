@@ -7,7 +7,7 @@ describe("Verifying basemap components", function(){
     it("Should verify different components of the basemap", ()=>{
 
         browser.url('/')
-        homePagePages.homePageSubmit('mmishra' , 'password=1')
+        homePagePages.homePageSubmit('' , '')
         homePagePages.clickSJGTest()
         browser.pause(20000)
         browser.switchWindow('South Jersey Gas')
