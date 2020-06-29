@@ -7,7 +7,7 @@ describe("Verifying legend components", function(){
     it("Should verify legend layer Work Order Points", ()=>{
 
         browser.url('/')
-        homePagePages.homePageSubmit('mmishra' , 'password=1')
+        homePagePages.homePageSubmit('' , '')
         homePagePages.clickSJGTest()
         browser.pause(20000)
         browser.switchWindow('South Jersey Gas')
