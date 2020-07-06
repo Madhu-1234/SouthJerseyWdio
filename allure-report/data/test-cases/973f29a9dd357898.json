@@ -1,0 +1,331 @@
+{
+  "uid" : "973f29a9dd357898",
+  "name" : "TC_006 Identify functionality for valve",
+  "fullName" : "Verifying identify functionality.TC_006 Identify functionality for valve",
+  "historyId" : "19883dfcd01aa6876f7283cf22499d8b",
+  "time" : {
+    "start" : 1593703442696,
+    "stop" : 1593703523041,
+    "duration" : 80345
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "browser.moveToElement is not a function",
+  "statusTrace" : "TypeError: browser.moveToElement is not a function\n                    at Context.<anonymous> (C:\\Users\\Alok's\\Documents\\WebDriverIO\\test\\identify.test.js:23:17)\n                    at Context.executeSync (C:\\Users\\Alok's\\Documents\\WebDriverIO\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\Alok's\\Documents\\WebDriverIO\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Verifying identify functionality"
+  }, {
+    "name" : "testClass",
+    "value" : "Verifying identify functionality"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_006 Identify functionality for valve"
+  }, {
+    "name" : "package",
+    "value" : "Verifying identify functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c9bc43642f1e02eb",
+      "status" : "broken",
+      "statusDetails" : "browser.moveToElement is not a function",
+      "time" : {
+        "start" : 1593701301504,
+        "stop" : 1593701394399,
+        "duration" : 92895
+      }
+    }, {
+      "uid" : "ebece7aa0de43cb2",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n                  (Session info: chrome=83.0.4103.116)",
+      "time" : {
+        "start" : 1593700049445,
+        "stop" : 1593700135546,
+        "duration" : 86101
+      }
+    }, {
+      "uid" : "ba46200706f61203",
+      "status" : "broken",
+      "statusDetails" : "browser.moveToElement is not a function",
+      "time" : {
+        "start" : 1593538591649,
+        "stop" : 1593538669229,
+        "duration" : 77580
+      }
+    }, {
+      "uid" : "82ba025ef02026ec",
+      "status" : "failed",
+      "statusDetails" : "expected 'Main Assets' to equal 'Valve Assets'",
+      "time" : {
+        "start" : 1593538189871,
+        "stop" : 1593538276916,
+        "duration" : 87045
+      }
+    }, {
+      "uid" : "6ba13ccae904ba19",
+      "status" : "failed",
+      "statusDetails" : "expected 'Main Assets' to equal 'Valve Assets'",
+      "time" : {
+        "start" : 1593537850502,
+        "stop" : 1593537925754,
+        "duration" : 75252
+      }
+    }, {
+      "uid" : "10f6814727a776d8",
+      "status" : "failed",
+      "statusDetails" : "expected 'Main Assets' to equal 'Valve Assets'",
+      "time" : {
+        "start" : 1593537675685,
+        "stop" : 1593537760118,
+        "duration" : 84433
+      }
+    }, {
+      "uid" : "adf718cab28109dd",
+      "status" : "failed",
+      "statusDetails" : "expected 'Main Assets' to equal 'Valve Assets'",
+      "time" : {
+        "start" : 1593532822227,
+        "stop" : 1593532897601,
+        "duration" : 75374
+      }
+    }, {
+      "uid" : "a98eea7966c70e9f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593531413624,
+        "stop" : 1593531486672,
+        "duration" : 73048
+      }
+    }, {
+      "uid" : "c19fbf26316df0a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593531146755,
+        "stop" : 1593531219300,
+        "duration" : 72545
+      }
+    }, {
+      "uid" : "ca722079264eadea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593527513405,
+        "stop" : 1593527583335,
+        "duration" : 69930
+      }
+    }, {
+      "uid" : "98e4ea53828e26e5",
+      "status" : "broken",
+      "statusDetails" : "browser.positionClick is not a function",
+      "time" : {
+        "start" : 1593522441091,
+        "stop" : 1593522497060,
+        "duration" : 55969
+      }
+    }, {
+      "uid" : "337f0642472620d6",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <span class=\"dijitReset dijitStretch dijitButtonContents\" data-dojo-attach-point=\"titleNode,focusNode\" role=\"button\" aria-labelledby=\"searchWidgetButton_label\" tabindex=\"0\" id=\"searchWidgetButton\" style=\"user-select: none;\">...</span> is not clickable at point (359, 119). Other element would receive the click: <div class=\"k-overlay\" style=\"display: block; z-index: 10004; opacity: 0.5;\"></div>\n                  (Session info: chrome=83.0.4103.116)",
+      "time" : {
+        "start" : 1593522201734,
+        "stop" : 1593522262565,
+        "duration" : 60831
+      }
+    }, {
+      "uid" : "edbb5395091e8648",
+      "status" : "broken",
+      "statusDetails" : "element not interactable\n                  (Session info: chrome=83.0.4103.116)",
+      "time" : {
+        "start" : 1593521613759,
+        "stop" : 1593521667347,
+        "duration" : 53588
+      }
+    }, {
+      "uid" : "dcf2ab70269421f0",
+      "status" : "broken",
+      "statusDetails" : "element not interactable\n                  (Session info: chrome=83.0.4103.116)",
+      "time" : {
+        "start" : 1593521499377,
+        "stop" : 1593521546907,
+        "duration" : 47530
+      }
+    }, {
+      "uid" : "1a2a335b9c8922ab",
+      "status" : "broken",
+      "statusDetails" : "element not interactable\n                  (Session info: chrome=83.0.4103.116)",
+      "time" : {
+        "start" : 1593521268552,
+        "stop" : 1593521320590,
+        "duration" : 52038
+      }
+    }, {
+      "uid" : "f71bf9e3c6fd5dfc",
+      "status" : "broken",
+      "statusDetails" : "element not interactable\n                  (Session info: chrome=83.0.4103.116)",
+      "time" : {
+        "start" : 1593521163831,
+        "stop" : 1593521204811,
+        "duration" : 40980
+      }
+    }, {
+      "uid" : "b127a9a14eb0bab7",
+      "status" : "broken",
+      "statusDetails" : "element not interactable\n                  (Session info: chrome=83.0.4103.116)",
+      "time" : {
+        "start" : 1593521036457,
+        "stop" : 1593521082214,
+        "duration" : 45757
+      }
+    }, {
+      "uid" : "8f61c2553baea49a",
+      "status" : "broken",
+      "statusDetails" : "invalid element state\n                  (Session info: chrome=83.0.4103.116)",
+      "time" : {
+        "start" : 1593520902191,
+        "stop" : 1593520947621,
+        "duration" : 45430
+      }
+    }, {
+      "uid" : "b80bad6d0eb1d515",
+      "status" : "broken",
+      "statusDetails" : "invalid element state\n                  (Session info: chrome=83.0.4103.116)",
+      "time" : {
+        "start" : 1593520668627,
+        "stop" : 1593520709932,
+        "duration" : 41305
+      }
+    }, {
+      "uid" : "c484063b0e28f5bd",
+      "status" : "broken",
+      "statusDetails" : "invalid element state\n                  (Session info: chrome=83.0.4103.116)",
+      "time" : {
+        "start" : 1593520468847,
+        "stop" : 1593520525190,
+        "duration" : 56343
+      }
+    }, {
+      "uid" : "c5c419529bec7f9e",
+      "status" : "broken",
+      "statusDetails" : "invalid element state\n                  (Session info: chrome=83.0.4103.116)",
+      "time" : {
+        "start" : 1593520352396,
+        "stop" : 1593520416028,
+        "duration" : 63632
+      }
+    }, {
+      "uid" : "2e9ed4b67cf2e33c",
+      "status" : "broken",
+      "statusDetails" : "invalid element state\n                  (Session info: chrome=83.0.4103.116)",
+      "time" : {
+        "start" : 1593520168356,
+        "stop" : 1593520225229,
+        "duration" : 56873
+      }
+    }, {
+      "uid" : "1fd9850b0d44c44a",
+      "status" : "failed",
+      "statusDetails" : "Malformed type for \"id\" parameter of command switchToFrame\n                Expected: (number|object|null)\n                Actual: string\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-frame\n                ",
+      "time" : {
+        "start" : 1593519927447,
+        "stop" : 1593519991017,
+        "duration" : 63570
+      }
+    }, {
+      "uid" : "a59738a4862d675d",
+      "status" : "failed",
+      "statusDetails" : "Malformed type for \"id\" parameter of command switchToFrame\n                Expected: (number|object|null)\n                Actual: string\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-frame\n                ",
+      "time" : {
+        "start" : 1593519676299,
+        "stop" : 1593519732320,
+        "duration" : 56021
+      }
+    }, {
+      "uid" : "a452037abe5e4ab9",
+      "status" : "failed",
+      "statusDetails" : "Malformed type for \"id\" parameter of command switchToFrame\n                Expected: (number|object|null)\n                Actual: string\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-frame\n                ",
+      "time" : {
+        "start" : 1593519553801,
+        "stop" : 1593519610998,
+        "duration" : 57197
+      }
+    }, {
+      "uid" : "e3aece41bc710c9e",
+      "status" : "broken",
+      "statusDetails" : "no such window\n                  (Session info: chrome=83.0.4103.116)",
+      "time" : {
+        "start" : 1593519464647,
+        "stop" : 1593519522152,
+        "duration" : 57505
+      }
+    }, {
+      "uid" : "c0cf0e1b132fa095",
+      "status" : "broken",
+      "statusDetails" : "browser.positionClick is not a function",
+      "time" : {
+        "start" : 1593518875561,
+        "stop" : 1593518942174,
+        "duration" : 66613
+      }
+    }, {
+      "uid" : "38c4fb5502cc484c",
+      "status" : "broken",
+      "statusDetails" : "browser.positionClick is not a function",
+      "time" : {
+        "start" : 1593518714408,
+        "stop" : 1593518786602,
+        "duration" : 72194
+      }
+    }, {
+      "uid" : "9ac5b766ae73ff68",
+      "status" : "broken",
+      "statusDetails" : "browser.positionClick is not a function",
+      "time" : {
+        "start" : 1593518574380,
+        "stop" : 1593518638556,
+        "duration" : 64176
+      }
+    }, {
+      "uid" : "7ba39f6184fab1e2",
+      "status" : "broken",
+      "statusDetails" : "element not interactable\n                  (Session info: chrome=83.0.4103.116)",
+      "time" : {
+        "start" : 1593518143809,
+        "stop" : 1593518324222,
+        "duration" : 180413
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "973f29a9dd357898.json",
+  "parameterValues" : [ "chrome" ]
+}

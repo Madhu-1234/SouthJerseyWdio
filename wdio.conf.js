@@ -50,7 +50,7 @@ exports.config = {
         // maxInstances can get overwritten per capability. So if you have an in-house Selenium
         // grid with only 5 firefox instances available you can make sure that not more than
         // 5 instances get started at a time.
-        maxInstances: 5,
+        maxInstances: 1,
         //
         browserName: 'chrome',
         // If outputDir is provided WebdriverIO can capture driver session logs
@@ -92,7 +92,7 @@ exports.config = {
     baseUrl: 'https://testfieldbook.mottmac.com/',
     //
     // Default timeout for all waitFor* commands.
-    waitforTimeout: 100000,
+    waitforTimeout: 300000,
     //
     // Default timeout in milliseconds for request
     // if browser driver or grid doesn't send response
@@ -124,7 +124,13 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter.html
-    reporters: ['spec',['allure', {outputDir: 'allure-results'}]],
+    reporters: ['spec'],
+    reporters: [['allure', {
+    outputDir: 'allure-results',
+    disableWebdriverStepsReporting: true,
+    disableWebdriverScreenshotsReporting: true,
+
+}]],
 
 
     
@@ -133,7 +139,7 @@ exports.config = {
     // See the full list at http://mochajs.org/
     mochaOpts: {
         ui: 'bdd',
-        timeout: 100000
+        timeout: 300000
     },
     //
     // =====

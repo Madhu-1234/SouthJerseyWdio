@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "browser.moveToElement is not a function",
+      "children" : [ {
+        "name" : "TC_006 Identify functionality for valve",
+        "uid" : "973f29a9dd357898",
+        "parentUid" : "b048cef41fcb3b54d71cb686c50eac2c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1593703442696,
+          "stop" : 1593703523041,
+          "duration" : 80345
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "b048cef41fcb3b54d71cb686c50eac2c"
+    }, {
+      "name" : "Cannot read property 'match' of null",
+      "children" : [ {
+        "name" : "Login to testfieldbook",
+        "uid" : "d0450bf4047ab98a",
+        "parentUid" : "7f2206ccdd0e7edcbb98f6109ef84be2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1593703627653,
+          "stop" : 1593703674427,
+          "duration" : 46774
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "7f2206ccdd0e7edcbb98f6109ef84be2"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

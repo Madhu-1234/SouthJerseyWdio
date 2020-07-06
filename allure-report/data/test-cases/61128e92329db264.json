@@ -1,0 +1,56 @@
+{
+  "uid" : "61128e92329db264",
+  "name" : "verify service asbuilt count by town and street",
+  "fullName" : "Verifying document finder count displayed.verify service asbuilt count by town and street",
+  "historyId" : "26d53b9885c61d72c049997e247c83f7",
+  "time" : {
+    "start" : 1593701234047,
+    "stop" : 1593701295175,
+    "duration" : 61128
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Verifying document finder count displayed"
+  }, {
+    "name" : "testClass",
+    "value" : "Verifying document finder count displayed"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify service asbuilt count by town and street"
+  }, {
+    "name" : "package",
+    "value" : "Verifying document finder count displayed"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "61128e92329db264.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -7,6 +7,7 @@ describe("Verifying basemap components", function(){
     it("Should verify different components of the basemap", ()=>{
 
         browser.url('/')
+        browser.maximizeWindow()
         homePagePages.homePageSubmit('mmishra' , 'password=1')
         homePagePages.clickSJGTest()
         browser.pause(20000)

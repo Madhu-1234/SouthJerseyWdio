@@ -4,6 +4,7 @@ describe("Interacting with elements" , function(){
     it("Login to testfieldbook", ()=>{
 
         browser.url('/')
+        browser.maximizeWindow()
         //homePagePages.username.setValue('mmishra')
         //homePagePages.password.setValue('password=1')
         homePagePages.homePageSubmit('mmishra' , 'password=1')

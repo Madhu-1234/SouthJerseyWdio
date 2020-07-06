@@ -1,0 +1,66 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1594024885410' stop='1594024911796'>
+    <name>Verifying document finder count displayed</name>
+    <title>Verifying document finder count displayed</title>
+    <test-cases>
+        <test-case start='1594024885411' status='pending' stop='1594024885412'>
+            <name>verify main asbuilt  and service asbuilt count by town and street</name>
+            <title>verify main asbuilt  and service asbuilt count by town and street</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1594024885412' status='pending' stop='1594024885412'>
+            <name>verify service asbuilt count by town and street</name>
+            <title>verify service asbuilt count by town and street</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1594024885413' status='broken' stop='1594024911794'>
+            <name>verify document finder advanced search</name>
+            <title>verify document finder advanced search</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=83.0.4103.116)</message>
+                <stack-trace>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=83.0.4103.116)
+                    at getErrorFromResponseBody (C:\Users\Alok's\Documents\WebDriverIO\node_modules\webdriver\build\utils.js:121:10)
+                    at WebDriverRequest._request (C:\Users\Alok's\Documents\WebDriverIO\node_modules\webdriver\build\request.js:149:56)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at async Browser.$ (C:\Users\Alok's\Documents\WebDriverIO\node_modules\webdriverio\build\commands\browser\$.js:19:15)
+                    at async Browser.runCommandWithHooks (C:\Users\Alok's\Documents\WebDriverIO\node_modules\@wdio\sync\build\wrapCommand.js:88:21)
+                    at Browser.runCommandWithHooks (C:\Users\Alok's\Documents\WebDriverIO\node_modules\@wdio\sync\build\wrapCommand.js:82:22)
+                    at Browser.wrapCommandFn (C:\Users\Alok's\Documents\WebDriverIO\node_modules\@wdio\sync\build\wrapCommand.js:59:40)
+                    at global.$ (C:\Users\Alok's\Documents\WebDriverIO\node_modules\@wdio\runner\build\index.js:189:36)
+                    at homePage.get sjgTestProjectCard [as sjgTestProjectCard] (C:\Users\Alok's\Documents\WebDriverIO\pages\homePage.pages.js:6:38)
+                    at homePage.clickSJGTest (C:\Users\Alok's\Documents\WebDriverIO\pages\homePage.pages.js:17:14)
+                    at Context.&lt;anonymous> (C:\Users\Alok's\Documents\WebDriverIO\test\documentFinder.test.js:64:19)
+                    at Context.executeSync (C:\Users\Alok's\Documents\WebDriverIO\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\Alok's\Documents\WebDriverIO\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

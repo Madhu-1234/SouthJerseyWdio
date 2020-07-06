@@ -1,0 +1,92 @@
+{
+  "uid" : "71010d0fcb404458",
+  "name" : "verify main asbuilt count by town and street",
+  "fullName" : "Verifying document finder count displayed.verify main asbuilt count by town and street",
+  "historyId" : "ce8bea3bdaa129f71f152f4236da6fc2",
+  "time" : {
+    "start" : 1593703208492,
+    "stop" : 1593703361439,
+    "duration" : 152947
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Verifying document finder count displayed"
+  }, {
+    "name" : "testClass",
+    "value" : "Verifying document finder count displayed"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify main asbuilt count by town and street"
+  }, {
+    "name" : "package",
+    "value" : "Verifying document finder count displayed"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ee05e87ffff86d24",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593701141267,
+        "stop" : 1593701234046,
+        "duration" : 92779
+      }
+    }, {
+      "uid" : "9415b842084b5d2d",
+      "status" : "broken",
+      "statusDetails" : "read ECONNRESET",
+      "time" : {
+        "start" : 1593700416337,
+        "stop" : 1593700423710,
+        "duration" : 7373
+      }
+    }, {
+      "uid" : "354950dfdba9824f",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n                  (Session info: chrome=83.0.4103.116)",
+      "time" : {
+        "start" : 1593699856571,
+        "stop" : 1593699943505,
+        "duration" : 86934
+      }
+    }, {
+      "uid" : "1aa5a9b66d34c7f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593448001299,
+        "stop" : 1593448075208,
+        "duration" : 73909
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "71010d0fcb404458.json",
+  "parameterValues" : [ "chrome" ]
+}

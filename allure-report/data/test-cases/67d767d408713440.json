@@ -1,0 +1,56 @@
+{
+  "uid" : "67d767d408713440",
+  "name" : "Should verify different components of the basemap",
+  "fullName" : "Verifying basemap components.Should verify different components of the basemap",
+  "historyId" : "fbccab2ccc5b32dbd3d28023643d20d3",
+  "time" : {
+    "start" : 1593701064041,
+    "stop" : 1593701132508,
+    "duration" : 68467
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Verifying basemap components"
+  }, {
+    "name" : "testClass",
+    "value" : "Verifying basemap components"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should verify different components of the basemap"
+  }, {
+    "name" : "package",
+    "value" : "Verifying basemap components"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "67d767d408713440.json",
+  "parameterValues" : [ "chrome" ]
+}

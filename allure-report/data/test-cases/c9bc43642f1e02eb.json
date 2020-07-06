@@ -1,0 +1,58 @@
+{
+  "uid" : "c9bc43642f1e02eb",
+  "name" : "TC_006 Identify functionality for valve",
+  "fullName" : "Verifying identify functionality.TC_006 Identify functionality for valve",
+  "historyId" : "19883dfcd01aa6876f7283cf22499d8b",
+  "time" : {
+    "start" : 1593701301504,
+    "stop" : 1593701394399,
+    "duration" : 92895
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "browser.moveToElement is not a function",
+  "statusTrace" : "TypeError: browser.moveToElement is not a function\n                    at Context.<anonymous> (C:\\Users\\Alok's\\Documents\\WebDriverIO\\test\\identify.test.js:23:17)\n                    at Context.executeSync (C:\\Users\\Alok's\\Documents\\WebDriverIO\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\Alok's\\Documents\\WebDriverIO\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Verifying identify functionality"
+  }, {
+    "name" : "testClass",
+    "value" : "Verifying identify functionality"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_006 Identify functionality for valve"
+  }, {
+    "name" : "package",
+    "value" : "Verifying identify functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c9bc43642f1e02eb.json",
+  "parameterValues" : [ "chrome" ]
+}

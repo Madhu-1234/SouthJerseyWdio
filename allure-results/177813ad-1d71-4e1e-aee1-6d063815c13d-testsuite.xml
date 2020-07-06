@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1593518875561' stop='1593518942175'>
+    <name>Verifying identify functionality</name>
+    <title>Verifying identify functionality</title>
+    <test-cases>
+        <test-case start='1593518875561' status='broken' stop='1593518942174'>
+            <name>TC_006 Identify functionality for valve</name>
+            <title>TC_006 Identify functionality for valve</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>browser.positionClick is not a function</message>
+                <stack-trace>TypeError: browser.positionClick is not a function
+                    at Context.&lt;anonymous> (C:\Users\Alok's\Documents\WebDriverIO\test\identify.test.js:18:17)
+                    at Context.executeSync (C:\Users\Alok's\Documents\WebDriverIO\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\Alok's\Documents\WebDriverIO\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

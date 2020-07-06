@@ -1,0 +1,42 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1593519553800' stop='1593519611000'>
+    <name>Verifying identify functionality</name>
+    <title>Verifying identify functionality</title>
+    <test-cases>
+        <test-case start='1593519553801' status='failed' stop='1593519610998'>
+            <name>TC_006 Identify functionality for valve</name>
+            <title>TC_006 Identify functionality for valve</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Malformed type for "id" parameter of command switchToFrame
+                Expected: (number|object|null)
+                Actual: string
+                
+                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-frame
+                </message>
+                <stack-trace>Error: Malformed type for "id" parameter of command switchToFrame
+                Expected: (number|object|null)
+                Actual: string
+                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-frame
+                    at Browser.protocolCommand (C:\Users\Alok's\Documents\WebDriverIO\node_modules\webdriver\build\command.js:51:15)
+                    at Browser.runCommandWithHooks (C:\Users\Alok's\Documents\WebDriverIO\node_modules\@wdio\sync\build\wrapCommand.js:88:30)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at Browser.runCommandWithHooks (C:\Users\Alok's\Documents\WebDriverIO\node_modules\@wdio\sync\build\wrapCommand.js:82:22)
+                    at Browser.wrapCommandFn (C:\Users\Alok's\Documents\WebDriverIO\node_modules\@wdio\sync\build\wrapCommand.js:59:40)
+                    at sjgFieldbookPage.searchAddress (C:\Users\Alok's\Documents\WebDriverIO\pages\sjgFieldbook.pages.js:138:17)
+                    at Context.&lt;anonymous> (C:\Users\Alok's\Documents\WebDriverIO\test\identify.test.js:16:27)
+                    at Context.executeSync (C:\Users\Alok's\Documents\WebDriverIO\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\Alok's\Documents\WebDriverIO\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,58 @@
+{
+  "uid" : "337f0642472620d6",
+  "name" : "TC_006 Identify functionality for valve",
+  "fullName" : "Verifying identify functionality.TC_006 Identify functionality for valve",
+  "historyId" : "19883dfcd01aa6876f7283cf22499d8b",
+  "time" : {
+    "start" : 1593522201734,
+    "stop" : 1593522262565,
+    "duration" : 60831
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element click intercepted: Element <span class=\"dijitReset dijitStretch dijitButtonContents\" data-dojo-attach-point=\"titleNode,focusNode\" role=\"button\" aria-labelledby=\"searchWidgetButton_label\" tabindex=\"0\" id=\"searchWidgetButton\" style=\"user-select: none;\">...</span> is not clickable at point (359, 119). Other element would receive the click: <div class=\"k-overlay\" style=\"display: block; z-index: 10004; opacity: 0.5;\"></div>\n                  (Session info: chrome=83.0.4103.116)",
+  "statusTrace" : "element click intercepted: Element <span class=\"dijitReset dijitStretch dijitButtonContents\" data-dojo-attach-point=\"titleNode,focusNode\" role=\"button\" aria-labelledby=\"searchWidgetButton_label\" tabindex=\"0\" id=\"searchWidgetButton\" style=\"user-select: none;\">...</span> is not clickable at point (359, 119). Other element would receive the click: <div class=\"k-overlay\" style=\"display: block; z-index: 10004; opacity: 0.5;\"></div>\n                  (Session info: chrome=83.0.4103.116)\n                    at getErrorFromResponseBody (C:\\Users\\Alok's\\Documents\\WebDriverIO\\node_modules\\webdriver\\build\\utils.js:121:10)\n                    at WebDriverRequest._request (C:\\Users\\Alok's\\Documents\\WebDriverIO\\node_modules\\webdriver\\build\\request.js:149:56)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Alok's\\Documents\\WebDriverIO\\node_modules\\webdriverio\\build\\middlewares.js:21:24)\n                    at async Element.runCommandWithHooks (C:\\Users\\Alok's\\Documents\\WebDriverIO\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:88:21)\n                    at Element.runCommandWithHooks (C:\\Users\\Alok's\\Documents\\WebDriverIO\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:82:22)\n                    at Element.wrapCommandFn (C:\\Users\\Alok's\\Documents\\WebDriverIO\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:59:40)\n                    at Element.elementErrorHandlerCallback (C:\\Users\\Alok's\\Documents\\WebDriverIO\\node_modules\\webdriverio\\build\\middlewares.js:40:8)\n                    at sjgFieldbookPage.searchAddress (C:\\Users\\Alok's\\Documents\\WebDriverIO\\pages\\sjgFieldbook.pages.js:142:40)\n                    at Context.<anonymous> (C:\\Users\\Alok's\\Documents\\WebDriverIO\\test\\identify.test.js:16:27)\n                    at Context.executeSync (C:\\Users\\Alok's\\Documents\\WebDriverIO\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\Alok's\\Documents\\WebDriverIO\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Verifying identify functionality"
+  }, {
+    "name" : "testClass",
+    "value" : "Verifying identify functionality"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_006 Identify functionality for valve"
+  }, {
+    "name" : "package",
+    "value" : "Verifying identify functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "337f0642472620d6.json",
+  "parameterValues" : [ "chrome" ]
+}

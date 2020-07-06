@@ -1,0 +1,56 @@
+{
+  "uid" : "1aa5a9b66d34c7f3",
+  "name" : "verify main asbuilt count by town and street",
+  "fullName" : "Verifying document finder count displayed.verify main asbuilt count by town and street",
+  "historyId" : "ce8bea3bdaa129f71f152f4236da6fc2",
+  "time" : {
+    "start" : 1593448001299,
+    "stop" : 1593448075208,
+    "duration" : 73909
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Verifying document finder count displayed"
+  }, {
+    "name" : "testClass",
+    "value" : "Verifying document finder count displayed"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify main asbuilt count by town and street"
+  }, {
+    "name" : "package",
+    "value" : "Verifying document finder count displayed"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1aa5a9b66d34c7f3.json",
+  "parameterValues" : [ "chrome" ]
+}

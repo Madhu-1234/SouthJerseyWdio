@@ -7,8 +7,9 @@ class sjgFieldbookPage{
     get zoomIn() { return $('//*[@id="map_zoom_slider"]/div[1]/span')}
     get baseMap() { return $('//*[@id="webmap-toolbar-Basemap1"]/button') }
     get documents() { return $('#dmsButton_label') }
-
-
+    get search() { return $('#searchButton') }
+    get identifyButton() { return $('#identifyButton') }
+    get streetView() { return $('#streetviewButton_label') }
     /*
     ***Object repository of legend elements
     */
@@ -17,7 +18,7 @@ class sjgFieldbookPage{
     get rectifierAsset_legend() {return $('//*[@id="agsjs_dijit__TOCNode_65"]/div/span/span[2]')}
     get dripAsset_legend() {return $('//*[@id="agsjs_dijit__TOCNode_66"]/div/span/span[2]')}
     
-
+    
     /*
     ***Object repository of basemap elements
     */
@@ -40,6 +41,18 @@ class sjgFieldbookPage{
     ***Object repository of document finder elements
     */
     get towns() {return $('=Towns')}
+    get advanceSearch() {return $('//*[@id="tabSearch"]')}
+    get mainAsbuiltLink() {return $('*=Main')}
+    get serviceAsbuiltLink() {return $('*=Service')}
+
+    /*
+    ***Object repository of searchbox elements
+    */
+    get searchBar() {return $('#searchBox')}
+    get searchGridResult() {return $('//*[@id="kendoSearchGrid"]/div[4]/table/tbody/tr')}
+    get searchButton_searchWindow() {return $('#searchWidgetButton')}
+    get searchWindowClose() {return $('/html/body/div[12]/div[1]/div/a[2]/span')}
+    
 
 
 
@@ -66,7 +79,7 @@ class sjgFieldbookPage{
 
    
     
-    searchByTownStreet(townName, streetName){
+    searchByTownStreetDocumentFinder(townName, streetName){
          this.towns.click()
          browser.pause(5000)
          var tname = '='+townName
@@ -77,14 +90,115 @@ class sjgFieldbookPage{
 
 
     }
-    checkMainAsbuiltCount(){
-        var MainAsbuiltText = $('*=Main').getText()
-        var count = MainAsbuiltText.substring(13);
+    checkMainAsbuiltCountDocumentHeader(){
+        var mainAsbuiltText = this.mainAsbuiltLink.getText()
+        var count = mainAsbuiltText.substring(13);
         console.log("the count is "+count)
+        this.mainAsbuiltLink.waitForExist()
+        this.mainAsbuiltLink.click()
+        return count 
         
     }
 
-    
+    /**
+     *Check count of documents mentioned in the foooter in Documents tab
+     */
+
+    checkFooterCount(){
+        
+        var string1 = $('//*[@id="kendoPSEGDocumentsGrid"]/div[5]/span[2]').getText()
+        var temp = string1.split(" ")
+        console.log(temp[4])
+        return temp[4]
+             
+    }
+
+    checkFooterCount_advSearch(){
+        var string1 = $('//*[@id="AdvDocumentsGrid"]/div[5]/span[2]').getText()
+        var temp = string1.split(" ")
+        console.log(temp[4])
+        return temp[4]
+    }
+
+    checkServiceAsbuiltCountDocumentHeader(){
+        var serviceAsbuiltText = this.serviceAsbuiltLink.getText()
+        var count = serviceAsbuiltText.substring(16);
+        console.log("the count is "+count)
+        //browser.pause(7000)
+        this.serviceAsbuiltLink.waitForExist()
+        this.serviceAsbuiltLink.click()
+        return count 
+        
+    }
+
+    checkAdvancedSearchCountHeader(division, town, street, document){
+        browser.pause(5000)
+        this.advanceSearch.click();
+        browser.pause(4000)
+        $('//*[@id="advanceSearch"]/div/div[1]/div[1]/span/span').click()
+        $('//*[@id="advDivision-list"]/span/input').setValue(division)
+        browser.pause(2000)
+        browser.keys('Enter')
+                  
+        browser.pause(2000)
+        $('//*[@id="advanceSearch"]/div/div[1]/div[2]/span/span').click()
+        $('//*[@id="advTown-list"]/span/input').setValue(town)
+        browser.pause(2000)
+        browser.keys('Enter')
+
+
+        browser.pause(2000)
+        $('//*[@id="advanceSearch"]/div/div[1]/div[3]/span/span').click()
+        $('//*[@id="advStreet-list"]/span/input').setValue(street)
+        browser.pause(2000)
+        browser.keys('Enter')
+
+        browser.pause(2000)
+        $('//*[@id="advanceSearch"]/div/div[1]/div[4]/span/span').click()
+        $('//*[@id="advDocument-list"]/span/input').setValue(document)
+        browser.pause(2000)
+        browser.keys('Enter')
+
+        $('//*[@id="advFind"]').click()
+
+        browser.pause(3000)
+
+        const countHeader_AdvSearch = $('//*[@id="lblCount"]').getText()
+        console.log(countHeader_AdvSearch)
+        return countHeader_AdvSearch
+              
+        
+    }
+
+    searchAddress(address){
+        this.search.click()
+        //this.searchBar.doubleClick()
+        browser.pause(3000)
+        this.searchBar.addValue(address)
+        browser.pause(5000)
+        this.searchButton_searchWindow.click()
+        this.searchGridResult.click()
+        this.searchWindowClose.click()        
+    }
+
+    clickOnIdentify(){
+        this.identifyButton.click()
+    }
+
+    clickOnStreetViewBtn(){
+        this.streetView.click()
+        browser.pause(5000)
+    }
+
+    addressDisplayedStreetView(){
+
+        var streetAddress = $('//*[@id="divAddressText"]/b').getText()
+        //var cityAddress = $('//*[@id="divAddressText"]/font').getText()
+        return streetAddress
+    }
+
+
+       
 }
 
 module.exports = new sjgFieldbookPage()

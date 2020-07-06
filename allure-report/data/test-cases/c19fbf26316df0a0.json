@@ -1,0 +1,56 @@
+{
+  "uid" : "c19fbf26316df0a0",
+  "name" : "TC_006 Identify functionality for valve",
+  "fullName" : "Verifying identify functionality.TC_006 Identify functionality for valve",
+  "historyId" : "19883dfcd01aa6876f7283cf22499d8b",
+  "time" : {
+    "start" : 1593531146755,
+    "stop" : 1593531219300,
+    "duration" : 72545
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Verifying identify functionality"
+  }, {
+    "name" : "testClass",
+    "value" : "Verifying identify functionality"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_006 Identify functionality for valve"
+  }, {
+    "name" : "package",
+    "value" : "Verifying identify functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c19fbf26316df0a0.json",
+  "parameterValues" : [ "chrome" ]
+}

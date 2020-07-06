@@ -1,0 +1,75 @@
+{
+  "uid" : "e169c65b222fe142",
+  "name" : "Should verify legend layer Work Order Points",
+  "fullName" : "Verifying legend components.Should verify legend layer Work Order Points",
+  "historyId" : "50fec78f9488a536ff6c0bde20e50ce7",
+  "time" : {
+    "start" : 1593703530840,
+    "stop" : 1593703619159,
+    "duration" : 88319
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "Verifying legend components"
+  }, {
+    "name" : "testClass",
+    "value" : "Verifying legend components"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should verify legend layer Work Order Points"
+  }, {
+    "name" : "package",
+    "value" : "Verifying legend components"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "277b5a20e30193c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593701401562,
+        "stop" : 1593701468031,
+        "duration" : 66469
+      }
+    }, {
+      "uid" : "9db4d9227bed32a",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n                  (Session info: chrome=83.0.4103.116)",
+      "time" : {
+        "start" : 1593700146551,
+        "stop" : 1593700229654,
+        "duration" : 83103
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e169c65b222fe142.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -7,6 +7,7 @@ describe("Verifying legend components", function(){
     it("Should verify legend layer Work Order Points", ()=>{
 
         browser.url('/')
+        browser.maximizeWindow()
         homePagePages.homePageSubmit('mmishra' , 'password=1')
         homePagePages.clickSJGTest()
         browser.pause(20000)

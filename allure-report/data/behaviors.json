@@ -1,0 +1,83 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Should verify different components of the basemap",
+    "uid" : "8189722cc24448cc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1593703115645,
+      "stop" : 1593703197859,
+      "duration" : 82214
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "verify main asbuilt count by town and street",
+    "uid" : "71010d0fcb404458",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1593703208492,
+      "stop" : 1593703361439,
+      "duration" : 152947
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "verify service asbuilt count by town and street",
+    "uid" : "297608e313d0fbb2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1593703361440,
+      "stop" : 1593703422360,
+      "duration" : 60920
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "TC_006 Identify functionality for valve",
+    "uid" : "973f29a9dd357898",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1593703442696,
+      "stop" : 1593703523041,
+      "duration" : 80345
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Should verify legend layer Work Order Points",
+    "uid" : "e169c65b222fe142",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1593703530840,
+      "stop" : 1593703619159,
+      "duration" : 88319
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Login to testfieldbook",
+    "uid" : "d0450bf4047ab98a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1593703627653,
+      "stop" : 1593703674427,
+      "duration" : 46774
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  } ],
+  "name" : "behaviors"
+}
