@@ -17,5 +17,10 @@ steps:
 
 - script: |
     npm install
+    npm install webdriverio - - save -dev
+    npm install @wdio/cli
+    npm install chai - - save-dev
     npm test
+    
+
   displayName: 'npm install and build'
