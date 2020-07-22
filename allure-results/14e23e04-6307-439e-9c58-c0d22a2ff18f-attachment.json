@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//*[@id=\"webmap-toolbar-Basemap1\"]/button"
-}

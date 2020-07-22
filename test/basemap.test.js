@@ -6,12 +6,6 @@ describe("Verifying basemap components", function(){
 
     it("Should verify different components of the basemap", ()=>{
 
-        browser.url('/')
-        homePagePages.homePageSubmit('' , '')
-        homePagePages.clickSJGTest()
-        browser.pause(20000)
-        browser.switchWindow('South Jersey Gas')
-        browser.pause(15000)
         sjgFieldbookPages.zoomToEnableLegend()
         sjgFieldbookPages.clickBaseMap()
         /*
@@ -19,6 +13,7 @@ describe("Verifying basemap components", function(){
         */
         browser.pause(4000)
         assert.equal(true, sjgFieldbookPages.googleHybrid_baseMap.isClickable())
+        
         assert.equal(true, sjgFieldbookPages.googleRoad_baseMap.isClickable())
         assert.equal(true, sjgFieldbookPages.streets_baseMap.isClickable())
         assert.equal(true, sjgFieldbookPages.topographic_baseMap.isClickable())
@@ -31,7 +26,7 @@ describe("Verifying basemap components", function(){
         assert.equal(true, sjgFieldbookPages.darkGreyCanvas_baseMap.isClickable())
         assert.equal(true, sjgFieldbookPages.lightGreyCanvas_baseMap.isClickable())
         assert.equal(true, sjgFieldbookPages.esriClarity_baseMap.isClickable())
-        //browser.debug()
+      
     })
 
 })

@@ -1,17 +1,15 @@
 const homePagePages = require("../pages/homePage.pages")
-describe("Interacting with elements" , function(){
+describe("Validate SJG project card selected" , function(){
 
     it("Login to testfieldbook", ()=>{
-
-        browser.url('/')
-        homePagePages.homePageSubmit('' , '')
-        homePagePages.clickSJGTest()
-        browser.pause(20000)
-        browser.switchWindow('South Jersey Gas')
-        browser.pause(20000)
+       
+        
         console.log(browser.getTitle)
         expect(browser.getTitle()).equals('South Jersey Gas')
-      
+        browser.saveFullPageScreen('fullPage');
+        expect(browser.checkFullPageScreen('fullPage')).to.equal(0);
+    
+            
 
     })
 

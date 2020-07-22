@@ -1,3 +1,6 @@
+
+global.jiraIssue = "SJFS-99";
+const { join } = require('path');
 exports.config = {
     //
     // ====================
@@ -7,6 +10,8 @@ exports.config = {
     // WebdriverIO allows it to run your tests in arbitrary locations (e.g. locally or
     // on a remote machine).
     runner: 'local',
+
+
     //
     // ==================
     // Specify Test Files
@@ -15,6 +20,7 @@ exports.config = {
     // from which `wdio` was called. Notice that, if you are calling `wdio` from an
     // NPM script (see https://docs.npmjs.com/cli/run-script) then the current working
     // directory is where your package.json resides, so `wdio` will be called from there.
+    
     //
     specs: [
         './test/**/*.js'
@@ -46,11 +52,11 @@ exports.config = {
     // https://docs.saucelabs.com/reference/platforms-configurator
     //
     capabilities: [{
-    
+
         // maxInstances can get overwritten per capability. So if you have an in-house Selenium
         // grid with only 5 firefox instances available you can make sure that not more than
         // 5 instances get started at a time.
-        maxInstances: 5,
+        maxInstances: 1,
         //
         browserName: 'chrome',
         // If outputDir is provided WebdriverIO can capture driver session logs
@@ -90,9 +96,10 @@ exports.config = {
     // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
     // gets prepended directly.
     baseUrl: 'https://testfieldbook.mottmac.com/',
+
     //
     // Default timeout for all waitFor* commands.
-    waitforTimeout: 100000,
+    waitforTimeout: 300000,
     //
     // Default timeout in milliseconds for request
     // if browser driver or grid doesn't send response
@@ -106,7 +113,40 @@ exports.config = {
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
     services: ['chromedriver'],
-    
+    services: [ 
+        ['image-comparison', 
+        // The options
+        {
+            // Some options, see the docs for more
+            baselineFolder: join(process.cwd(), './tests/sauceLabsBaseline/'),
+            formatImageName: '{tag}-{logName}-{width}x{height}',
+            screenshotPath: join(process.cwd(), '.tmp/'),
+            savePerInstance: true,
+            autoSaveBaseline: true,
+            blockOutStatusBar: true,
+            blockOutToolBar: true,
+            autoSaveBaseline: true
+            // ... more options
+        }], 
+    ],
+    services: [
+        ['selenium-standalone', {
+            logPath: 'logs',
+            installArgs: {
+                drivers: {
+                    chrome: { version: '84.0.4147.30' },
+                    firefox: { version: '0.26.0' }
+                }
+            },
+            args: {
+                drivers: {
+                    chrome: { version: '84.0.4147.30' },
+                    firefox: { version: '0.26.0' }
+                }
+            },
+        }]
+    ],
+
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
     // see also: https://webdriver.io/docs/frameworks.html
@@ -124,16 +164,26 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter.html
-    reporters: ['spec',['allure', {outputDir: 'allure-results'}]],
+    reporters: ['spec'],
+    reporters: [['allure', {
+        outputDir: 'allure-results',
+        disableWebdriverStepsReporting: true,
+        disableWebdriverScreenshotsReporting: true,
+        
 
-
+    }]],
     
+
+   
+
+
+
     //
     // Options to be passed to Mocha.
     // See the full list at http://mochajs.org/
     mochaOpts: {
         ui: 'bdd',
-        timeout: 100000
+        timeout: 300000
     },
     //
     // =====
@@ -176,8 +226,20 @@ exports.config = {
      * @param {Array.<Object>} capabilities list of capabilities details
      * @param {Array.<String>} specs List of spec file paths that are to be run
      */
-    // before: function (capabilities, specs) {
-    // },
+    before: function () {
+       
+        browser.pause(8000)
+        console.log('running before log')
+        browser.url('/')
+        //browser.maximizeWindow()
+        $('#UserName').setValue('mmishra')
+        $('#Password').setValue('password=1')
+        $('input[type="submit"]').click()
+        $('img[src="/Images/Fieldbook_Project cards(491).png"]' ).click()
+        browser.pause(20000)
+        browser.switchWindow('South Jersey Gas')
+
+     },
     /**
      * Runs before a WebdriverIO command gets executed.
      * @param {String} commandName hook command name
@@ -214,15 +276,21 @@ exports.config = {
      * Hook that gets executed _after_ a hook within the suite starts (e.g. runs after calling
      * afterEach in Mocha)
      */
-    // afterHook: function (test, context, { error, result, duration, passed, retries }) {
-    // },
+    afterHook: function () {       
+    
+        
+    },
+
+
     /**
      * Function to be executed after a test (in Mocha/Jasmine).
      */
-    afterTest: function(test, context, { error, result, duration, passed, retries }) {
+    afterTest: function (test, context, { error, result, duration, passed, retries }) {
         if (!passed) {
             browser.takeScreenshot();
         }
+      
+        
     },
 
 
@@ -266,13 +334,92 @@ exports.config = {
      * @param {Array.<Object>} capabilities list of capabilities details
      * @param {<Object>} results object containing test results
      */
-    // onComplete: function(exitCode, config, capabilities, results) {
-    // },
-    /**
-    * Gets executed when a refresh happens.
-    * @param {String} oldSessionId session ID of the old session
-    * @param {String} newSessionId session ID of the new session
-    */
-    //onReload: function(oldSessionId, newSessionId) {
-    //}
+    
+     onComplete: function () {
+
+        var allure = require('allure-commandline');
+
+        var reportError = new Error('Could not generate Allure report')
+        var generation = allure(['generate', 'allure-results', '--clean'])
+        //var generation1 = allure(['generate', 'allure', 'open'])
+        return new Promise((resolve, reject) => {
+            const generationTimeout = setTimeout(
+                () => reject(reportError),
+                20000)
+
+            generation.on('exit', function (exitCode) {
+                clearTimeout(generationTimeout)
+
+
+
+                if (exitCode !== 0) {
+                    return reject(reportError)
+                }
+
+
+
+                console.log('Allure report successfully generated')
+                resolve()
+               
+               /* //Nodemailer module
+                var nodemailer = require('nodemailer');
+                var transporter = nodemailer.createTransport({
+                    service: 'Gmail',
+                    auth: {
+                        user: 'madhusmita.m12@gmail.com',
+                        pass: '****'
+                    }
+                });
+
+                console.log('created');
+
+
+                transporter.sendMail({
+                    from: 'madhusmita.m12@gmail.com',
+                    to: 'aaloksa@gmail.com',
+                    subject: 'hello world!',
+                    text: 'hello world!'
+                });
+                console.log('sent');
+                //   },
+
+*/
+const sgMail = require('@sendgrid/mail');
+sgMail.setApiKey('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');
+console.log('picked api key')
+
+const msg = {
+  to: 'aaloksa@gmail.com',
+  from: 'madhusmita.m12@gmail.com', // Use the email address or domain you verified above
+  subject: 'Sending with Twilio SendGrid is Fun',
+  text: 'and easy to do anywhere, even with Node.js',
+  html: '<strong>and easy to do anywhere, even with Node.js</strong>',
+};
+
+
+browser.call(() => {
+     console.log('about to send')
+     sgMail.send(msg);
+    });
+
+});
+
+    
+    
+
+
+           
+})
+
+        
+
+        /**
+        * Gets executed when a refresh happens.
+        * @param {String} oldSessionId session ID of the old session
+        * @param {String} newSessionId session ID of the new session
+        */
+        //onReload: function(oldSessionId, newSessionId) {
+        //}
+    },
+    
 }

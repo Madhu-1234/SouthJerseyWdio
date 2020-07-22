@@ -1,0 +1,70 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Login to testfieldbook",
+    "uid" : "59b2e3003ceedea2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1595243491008,
+      "stop" : 1595243491097,
+      "duration" : 89
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Should verify legend layer Work Order Points",
+    "uid" : "57a12b23f87cfe17",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1595244543495,
+      "stop" : 1595244551413,
+      "duration" : 7918
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Login to testfieldbook",
+    "uid" : "d0b89fc3d41b5da6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1595421939826,
+      "stop" : 1595421953336,
+      "duration" : 13510
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome-10.0.18362" ]
+  }, {
+    "name" : "Should verify different components of the basemap",
+    "uid" : "2abdc759bcbbd683",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1595447431331,
+      "stop" : 1595447437822,
+      "duration" : 6491
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome-10.0.18362" ]
+  }, {
+    "name" : "Should verify different components of the basemap",
+    "uid" : "2cc9b42c47ebe783",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1595448641278,
+      "stop" : 1595448649236,
+      "duration" : 7958
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  } ],
+  "name" : "behaviors"
+}

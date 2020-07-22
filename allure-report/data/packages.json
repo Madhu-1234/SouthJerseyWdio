@@ -1,0 +1,82 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "Validate SJG project card selected",
+    "children" : [ {
+      "name" : "Login to testfieldbook",
+      "uid" : "59b2e3003ceedea2",
+      "parentUid" : "faeff29ae252263cedea1810ab7c0967",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595243491008,
+        "stop" : 1595243491097,
+        "duration" : 89
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Login to testfieldbook",
+      "uid" : "d0b89fc3d41b5da6",
+      "parentUid" : "faeff29ae252263cedea1810ab7c0967",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595421939826,
+        "stop" : 1595421953336,
+        "duration" : 13510
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-10.0.18362" ]
+    } ],
+    "uid" : "faeff29ae252263cedea1810ab7c0967"
+  }, {
+    "name" : "Verifying legend components",
+    "children" : [ {
+      "name" : "Should verify legend layer Work Order Points",
+      "uid" : "57a12b23f87cfe17",
+      "parentUid" : "bc75f46cc54a180c49afc5a6d9b6c7c4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1595244543495,
+        "stop" : 1595244551413,
+        "duration" : 7918
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "bc75f46cc54a180c49afc5a6d9b6c7c4"
+  }, {
+    "name" : "Verifying basemap components",
+    "children" : [ {
+      "name" : "Should verify different components of the basemap",
+      "uid" : "2abdc759bcbbd683",
+      "parentUid" : "a794acf09a3482bb36498f051470a083",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595447431331,
+        "stop" : 1595447437822,
+        "duration" : 6491
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-10.0.18362" ]
+    }, {
+      "name" : "Should verify different components of the basemap",
+      "uid" : "2cc9b42c47ebe783",
+      "parentUid" : "a794acf09a3482bb36498f051470a083",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595448641278,
+        "stop" : 1595448649236,
+        "duration" : 7958
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "a794acf09a3482bb36498f051470a083"
+  } ],
+  "name" : "packages"
+}

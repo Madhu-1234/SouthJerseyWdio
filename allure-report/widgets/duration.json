@@ -1,0 +1,51 @@
+[ {
+  "uid" : "d0b89fc3d41b5da6",
+  "name" : "Login to testfieldbook",
+  "time" : {
+    "start" : 1595421939826,
+    "stop" : 1595421953336,
+    "duration" : 13510
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2abdc759bcbbd683",
+  "name" : "Should verify different components of the basemap",
+  "time" : {
+    "start" : 1595447431331,
+    "stop" : 1595447437822,
+    "duration" : 6491
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2cc9b42c47ebe783",
+  "name" : "Should verify different components of the basemap",
+  "time" : {
+    "start" : 1595448641278,
+    "stop" : 1595448649236,
+    "duration" : 7958
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "57a12b23f87cfe17",
+  "name" : "Should verify legend layer Work Order Points",
+  "time" : {
+    "start" : 1595244543495,
+    "stop" : 1595244551413,
+    "duration" : 7918
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "59b2e3003ceedea2",
+  "name" : "Login to testfieldbook",
+  "time" : {
+    "start" : 1595243491008,
+    "stop" : 1595243491097,
+    "duration" : 89
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
