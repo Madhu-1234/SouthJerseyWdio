@@ -5,16 +5,8 @@ const { checkMainAsbuiltCount } = require("../pages/sjgFieldbook.pages")
 
 describe("Verifying document finder count displayed", function(){
 
-    it("verify main asbuilt  and service asbuilt count by town and street", ()=>{
+    it("verify main asbuilt,service asbuilt count by town and street and advanced search", ()=>{
 
-        browser.url('/')
-        browser.maximizeWindow()
-        homePagePages.homePageSubmit('mmishra' , 'password=1')
-        homePagePages.clickSJGTest()
-        browser.pause(20000)
-        browser.switchWindow('South Jersey Gas')
-        browser.pause(10000)
-        //sjgFieldbookPages.zoomToEnableLegend()
         sjgFieldbookPages.documents.click()
         /*
         ***Validating Count of Main Asbuilt in the top of the page is same as that displayed for total records
@@ -31,6 +23,10 @@ describe("Verifying document finder count displayed", function(){
         browser.pause(10000)
         var serviceAsbCountFooter = sjgFieldbookPages.checkFooterCount()
         assert.equal(serviceAsbCountFooter, serviceAsbCountHeader)
+
+        const countHeader_advSearch = sjgFieldbookPages.checkAdvancedSearchCountHeader('ATLANTIC', 'ATLANTIC CITY', 'INDEPENDENCE AVE', 'Main Asbuilt')
+        const countFooter_advSearch = sjgFieldbookPages.checkFooterCount_advSearch()
+        assert.equal(countHeader_advSearch, countFooter_advSearch)
         
         
     })
@@ -38,7 +34,7 @@ describe("Verifying document finder count displayed", function(){
    
     
     
-   it("verify document finder advanced search", ()=>{
+   it.skip("verify document finder advanced search", ()=>{
 
     browser.url('/')
     homePagePages.clickSJGTest()

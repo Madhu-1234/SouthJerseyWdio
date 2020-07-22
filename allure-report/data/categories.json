@@ -1,43 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "children" : [ {
-    "name" : "Test defects",
+    "name" : "Product defects",
     "children" : [ {
-      "name" : "browser.moveToElement is not a function",
+      "name" : "expected true to equal false",
       "children" : [ {
-        "name" : "TC_006 Identify functionality for valve",
-        "uid" : "973f29a9dd357898",
-        "parentUid" : "b048cef41fcb3b54d71cb686c50eac2c",
-        "status" : "broken",
+        "name" : "Should verify legend layer Work Order Points",
+        "uid" : "847ddb5efa7f29bf",
+        "parentUid" : "a1d6c11fcfa5a5b3a8ae0cbe7a494730",
+        "status" : "failed",
         "time" : {
-          "start" : 1593703442696,
-          "stop" : 1593703523041,
-          "duration" : 80345
+          "start" : 1595244543495,
+          "stop" : 1595244551413,
+          "duration" : 7918
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "chrome" ]
       } ],
-      "uid" : "b048cef41fcb3b54d71cb686c50eac2c"
-    }, {
-      "name" : "Cannot read property 'match' of null",
-      "children" : [ {
-        "name" : "Login to testfieldbook",
-        "uid" : "d0450bf4047ab98a",
-        "parentUid" : "7f2206ccdd0e7edcbb98f6109ef84be2",
-        "status" : "broken",
-        "time" : {
-          "start" : 1593703627653,
-          "stop" : 1593703674427,
-          "duration" : 46774
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "chrome" ]
-      } ],
-      "uid" : "7f2206ccdd0e7edcbb98f6109ef84be2"
+      "uid" : "a1d6c11fcfa5a5b3a8ae0cbe7a494730"
     } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ],
   "name" : "categories"
 }

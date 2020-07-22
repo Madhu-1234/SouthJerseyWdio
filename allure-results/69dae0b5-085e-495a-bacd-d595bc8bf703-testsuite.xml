@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1595252031851' stop='1595252032414'>
+    <name>Validate SJG project card selected</name>
+    <title>Validate SJG project card selected</title>
+    <test-cases>
+        <test-case start='1595252031851' status='failed' stop='1595252032413'>
+            <name>Login to testfieldbook</name>
+            <title>Login to testfieldbook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-10.0.18362'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expected 'Home Page | Mott MacDonald' to equal 'South Jersey Gas'</message>
+                <stack-trace>AssertionError: expected 'Home Page | Mott MacDonald' to equal 'South Jersey Gas'
+                    at Context.&lt;anonymous> (C:\Users\Alok's\Documents\WebDriverIO\test\Login.test.js:8:36)
+                    at Context.executeSync (C:\Users\Alok's\Documents\WebDriverIO\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\Alok's\Documents\WebDriverIO\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

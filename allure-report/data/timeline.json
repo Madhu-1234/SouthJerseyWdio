@@ -3,712 +3,410 @@
   "children" : [ {
     "name" : "0-0",
     "children" : [ {
-      "name" : "Should verify different components of the basemap",
-      "uid" : "afe0c08309461b4f",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1593699756491,
-        "stop" : 1593699849389,
-        "duration" : 92898
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "TC_006 Identify functionality for valve",
-      "uid" : "a98eea7966c70e9f",
+      "name" : "Login to testfieldbook",
+      "uid" : "d1702441e57a9ca7",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1593531413624,
-        "stop" : 1593531486672,
-        "duration" : 73048
+        "start" : 1595417051028,
+        "stop" : 1595417063321,
+        "duration" : 12293
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "chrome" ]
+      "parameters" : [ "Chrome-10.0.18362" ]
     }, {
-      "name" : "verify main asbuilt count by town and street",
-      "uid" : "1aa5a9b66d34c7f3",
+      "name" : "Login to testfieldbook",
+      "uid" : "c9cd5ad60030158f",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1593448001299,
-        "stop" : 1593448075208,
-        "duration" : 73909
+        "start" : 1595416520779,
+        "stop" : 1595416534368,
+        "duration" : 13589
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "chrome" ]
+      "parameters" : [ "Chrome-10.0.18362" ]
     }, {
-      "name" : "TC_006 Identify functionality for valve",
-      "uid" : "82ba025ef02026ec",
+      "name" : "Login to testfieldbook",
+      "uid" : "3a597245748e92c8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595418783389,
+        "stop" : 1595418795717,
+        "duration" : 12328
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-10.0.18362" ]
+    }, {
+      "name" : "Login to testfieldbook",
+      "uid" : "ba58f38772146145",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "failed",
       "time" : {
-        "start" : 1593538189871,
-        "stop" : 1593538276916,
-        "duration" : 87045
+        "start" : 1595251858847,
+        "stop" : 1595251859443,
+        "duration" : 596
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "chrome" ]
+      "parameters" : [ "Chrome-10.0.18362" ]
     }, {
-      "name" : "TC_006 Identify functionality for valve",
-      "uid" : "1a2a335b9c8922ab",
+      "name" : "Login to testfieldbook",
+      "uid" : "8890c62fb8c6532f",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
+      "status" : "passed",
       "time" : {
-        "start" : 1593521268552,
-        "stop" : 1593521320590,
-        "duration" : 52038
+        "start" : 1595257851624,
+        "stop" : 1595257863085,
+        "duration" : 11461
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "chrome" ]
+      "parameters" : [ "Chrome-10.0.18362" ]
     }, {
-      "name" : "TC_006 Identify functionality for valve",
-      "uid" : "c5c419529bec7f9e",
+      "name" : "Login to testfieldbook",
+      "uid" : "7ef26e66de126932",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
+      "status" : "passed",
       "time" : {
-        "start" : 1593520352396,
-        "stop" : 1593520416028,
-        "duration" : 63632
+        "start" : 1595421939826,
+        "stop" : 1595421953336,
+        "duration" : 13510
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "chrome" ]
+      "parameters" : [ "Chrome-10.0.18362" ]
     }, {
-      "name" : "TC_006 Identify functionality for valve",
-      "uid" : "6ba13ccae904ba19",
+      "name" : "Login to testfieldbook",
+      "uid" : "3f5dacfc860cec06",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595252908984,
+        "stop" : 1595252920061,
+        "duration" : 11077
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-10.0.18362" ]
+    }, {
+      "name" : "Login to testfieldbook",
+      "uid" : "8ae3d10da2eeea50",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595416352671,
+        "stop" : 1595416364406,
+        "duration" : 11735
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-10.0.18362" ]
+    }, {
+      "name" : "Login to testfieldbook",
+      "uid" : "f90dc84c362ad467",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "failed",
       "time" : {
-        "start" : 1593537850502,
-        "stop" : 1593537925754,
-        "duration" : 75252
+        "start" : 1595418647365,
+        "stop" : 1595418662750,
+        "duration" : 15385
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-10.0.18362" ]
+    }, {
+      "name" : "Login to testfieldbook",
+      "uid" : "ca63d45445d7eb96",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595243491008,
+        "stop" : 1595243491097,
+        "duration" : 89
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
-      "name" : "TC_006 Identify functionality for valve",
-      "uid" : "10f6814727a776d8",
+      "name" : "Login to testfieldbook",
+      "uid" : "24e3d8f2e700216f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595416794545,
+        "stop" : 1595416807058,
+        "duration" : 12513
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-10.0.18362" ]
+    }, {
+      "name" : "Login to testfieldbook",
+      "uid" : "72eb5ec55400fa7e",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "failed",
       "time" : {
-        "start" : 1593537675685,
-        "stop" : 1593537760118,
-        "duration" : 84433
+        "start" : 1595252031851,
+        "stop" : 1595252032413,
+        "duration" : 562
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "chrome" ]
+      "parameters" : [ "Chrome-10.0.18362" ]
     }, {
-      "name" : "Should verify different components of the basemap",
-      "uid" : "8189722cc24448cc",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1593703115645,
-        "stop" : 1593703197859,
-        "duration" : 82214
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "TC_006 Identify functionality for valve",
-      "uid" : "f71bf9e3c6fd5dfc",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1593521163831,
-        "stop" : 1593521204811,
-        "duration" : 40980
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "TC_006 Identify functionality for valve",
-      "uid" : "337f0642472620d6",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1593522201734,
-        "stop" : 1593522262565,
-        "duration" : 60831
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "TC_006 Identify functionality for valve",
-      "uid" : "98e4ea53828e26e5",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1593522441091,
-        "stop" : 1593522497060,
-        "duration" : 55969
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "TC_006 Identify functionality for valve",
-      "uid" : "e3aece41bc710c9e",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1593519464647,
-        "stop" : 1593519522152,
-        "duration" : 57505
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "TC_006 Identify functionality for valve",
-      "uid" : "a452037abe5e4ab9",
+      "name" : "Login to testfieldbook",
+      "uid" : "fce9c954e40eaef5",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "failed",
       "time" : {
-        "start" : 1593519553801,
-        "stop" : 1593519610998,
-        "duration" : 57197
+        "start" : 1595414490668,
+        "stop" : 1595414510246,
+        "duration" : 19578
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "chrome" ]
+      "parameters" : [ "Chrome-10.0.18362" ]
     }, {
-      "name" : "TC_006 Identify functionality for valve",
-      "uid" : "ba46200706f61203",
+      "name" : "Login to testfieldbook",
+      "uid" : "8b9a02fa9ad414d7",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595415024947,
+        "stop" : 1595415037872,
+        "duration" : 12925
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-10.0.18362" ]
+    }, {
+      "name" : "Login to testfieldbook",
+      "uid" : "69062a5e8dc7d1ec",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595258037146,
+        "stop" : 1595258048408,
+        "duration" : 11262
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-10.0.18362" ]
+    }, {
+      "name" : "Login to testfieldbook",
+      "uid" : "260602a811e788d9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595420613585,
+        "stop" : 1595420630795,
+        "duration" : 17210
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-10.0.18362" ]
+    }, {
+      "name" : "Login to testfieldbook",
+      "uid" : "8a049eb5d319d137",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595420716488,
+        "stop" : 1595420731177,
+        "duration" : 14689
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-10.0.18362" ]
+    }, {
+      "name" : "Login to testfieldbook",
+      "uid" : "746110489b93d451",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "broken",
       "time" : {
-        "start" : 1593538591649,
-        "stop" : 1593538669229,
-        "duration" : 77580
+        "start" : 1595252197815,
+        "stop" : 1595252209828,
+        "duration" : 12013
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "chrome" ]
+      "parameters" : [ "Chrome-10.0.18362" ]
     }, {
-      "name" : "TC_006 Identify functionality for valve",
-      "uid" : "1fd9850b0d44c44a",
+      "name" : "Login to testfieldbook",
+      "uid" : "5f4a6a237aa8f757",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595419025477,
+        "stop" : 1595419038074,
+        "duration" : 12597
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-10.0.18362" ]
+    }, {
+      "name" : "Login to testfieldbook",
+      "uid" : "df2544fbfde5db38",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595415278345,
+        "stop" : 1595415290260,
+        "duration" : 11915
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-10.0.18362" ]
+    }, {
+      "name" : "Login to testfieldbook",
+      "uid" : "3e1cca184fd07c49",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595416658294,
+        "stop" : 1595416673385,
+        "duration" : 15091
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-10.0.18362" ]
+    }, {
+      "name" : "Should verify legend layer Work Order Points",
+      "uid" : "847ddb5efa7f29bf",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "failed",
       "time" : {
-        "start" : 1593519927447,
-        "stop" : 1593519991017,
-        "duration" : 63570
+        "start" : 1595244543495,
+        "stop" : 1595244551413,
+        "duration" : 7918
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
-      "name" : "TC_006 Identify functionality for valve",
-      "uid" : "a59738a4862d675d",
+      "name" : "Login to testfieldbook",
+      "uid" : "e09801c1fc944baa",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595253309155,
+        "stop" : 1595253320272,
+        "duration" : 11117
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-10.0.18362" ]
+    }, {
+      "name" : "Login to testfieldbook",
+      "uid" : "d2e385ce98879574",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595416033999,
+        "stop" : 1595416045460,
+        "duration" : 11461
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-10.0.18362" ]
+    }, {
+      "name" : "Login to testfieldbook",
+      "uid" : "2ea93eef954beb88",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595418020494,
+        "stop" : 1595418031705,
+        "duration" : 11211
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-10.0.18362" ]
+    }, {
+      "name" : "Login to testfieldbook",
+      "uid" : "70c6a69971a04bbc",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595257692691,
+        "stop" : 1595257706586,
+        "duration" : 13895
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-10.0.18362" ]
+    }, {
+      "name" : "Login to testfieldbook",
+      "uid" : "5b9aa121575bd23d",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "failed",
       "time" : {
-        "start" : 1593519676299,
-        "stop" : 1593519732320,
-        "duration" : 56021
+        "start" : 1595253172594,
+        "stop" : 1595253184723,
+        "duration" : 12129
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "chrome" ]
+      "parameters" : [ "Chrome-10.0.18362" ]
     }, {
-      "name" : "Should verify different components of the basemap",
-      "uid" : "67d767d408713440",
+      "name" : "Login to testfieldbook",
+      "uid" : "8308ba1bb99cd75f",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1593701064041,
-        "stop" : 1593701132508,
-        "duration" : 68467
+        "start" : 1595413739496,
+        "stop" : 1595413755502,
+        "duration" : 16006
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "chrome" ]
+      "parameters" : [ "Chrome-10.0.18362" ]
     }, {
-      "name" : "Should verify different components of the basemap",
-      "uid" : "f1cfe5b87c7ba97b",
+      "name" : "Login to testfieldbook",
+      "uid" : "445d489448a3dfc7",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1593700197942,
-        "stop" : 1593700404830,
-        "duration" : 206888
+        "start" : 1595252452908,
+        "stop" : 1595252464421,
+        "duration" : 11513
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "chrome" ]
+      "parameters" : [ "Chrome-10.0.18362" ]
     }, {
-      "name" : "TC_006 Identify functionality for valve",
-      "uid" : "8f61c2553baea49a",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1593520902191,
-        "stop" : 1593520947621,
-        "duration" : 45430
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "TC_006 Identify functionality for valve",
-      "uid" : "dcf2ab70269421f0",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1593521499377,
-        "stop" : 1593521546907,
-        "duration" : 47530
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "TC_006 Identify functionality for valve",
-      "uid" : "38c4fb5502cc484c",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1593518714408,
-        "stop" : 1593518786602,
-        "duration" : 72194
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "TC_006 Identify functionality for valve",
-      "uid" : "adf718cab28109dd",
+      "name" : "Login to testfieldbook",
+      "uid" : "d842cabcc2955bd2",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "failed",
       "time" : {
-        "start" : 1593532822227,
-        "stop" : 1593532897601,
-        "duration" : 75374
+        "start" : 1595415482300,
+        "stop" : 1595415499881,
+        "duration" : 17581
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "chrome" ]
+      "parameters" : [ "Chrome-10.0.18362" ]
     }, {
-      "name" : "Should verify different components of the basemap",
-      "uid" : "914b0f0af6dc6b78",
+      "name" : "Login to testfieldbook",
+      "uid" : "f964d52803fb1ac9",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1593435387178,
-        "stop" : 1593435452724,
-        "duration" : 65546
+        "start" : 1595415874518,
+        "stop" : 1595415886256,
+        "duration" : 11738
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "TC_006 Identify functionality for valve",
-      "uid" : "c0cf0e1b132fa095",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1593518875561,
-        "stop" : 1593518942174,
-        "duration" : 66613
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "TC_006 Identify functionality for valve",
-      "uid" : "edbb5395091e8648",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1593521613759,
-        "stop" : 1593521667347,
-        "duration" : 53588
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "TC_006 Identify functionality for valve",
-      "uid" : "9ac5b766ae73ff68",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1593518574380,
-        "stop" : 1593518638556,
-        "duration" : 64176
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "TC_006 Identify functionality for valve",
-      "uid" : "c19fbf26316df0a0",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1593531146755,
-        "stop" : 1593531219300,
-        "duration" : 72545
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "TC_006 Identify functionality for valve",
-      "uid" : "b127a9a14eb0bab7",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1593521036457,
-        "stop" : 1593521082214,
-        "duration" : 45757
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Should verify different components of the basemap",
-      "uid" : "e1b87b7f312e980b",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1593448203451,
-        "stop" : 1593448281461,
-        "duration" : 78010
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "TC_006 Identify functionality for valve",
-      "uid" : "c484063b0e28f5bd",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1593520468847,
-        "stop" : 1593520525190,
-        "duration" : 56343
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "verify service asbuilt count by town and street",
-      "uid" : "4f08a4e5b5478e1",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1593448075208,
-        "stop" : 1593448136275,
-        "duration" : 61067
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "TC_006 Identify functionality for valve",
-      "uid" : "7ba39f6184fab1e2",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1593518143809,
-        "stop" : 1593518324222,
-        "duration" : 180413
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "TC_006 Identify functionality for valve",
-      "uid" : "2e9ed4b67cf2e33c",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1593520168356,
-        "stop" : 1593520225229,
-        "duration" : 56873
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "TC_006 Identify functionality for valve",
-      "uid" : "ca722079264eadea",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1593527513405,
-        "stop" : 1593527583335,
-        "duration" : 69930
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "TC_006 Identify functionality for valve",
-      "uid" : "b80bad6d0eb1d515",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1593520668627,
-        "stop" : 1593520709932,
-        "duration" : 41305
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
+      "parameters" : [ "Chrome-10.0.18362" ]
     } ],
     "uid" : "516fe00eea05ad99e936fa729b55eff4"
-  }, {
-    "name" : "0-3",
-    "children" : [ {
-      "name" : "Should verify legend layer Work Order Points",
-      "uid" : "277b5a20e30193c3",
-      "parentUid" : "b755a79e149728f67460aea38b0710e0",
-      "status" : "passed",
-      "time" : {
-        "start" : 1593701401562,
-        "stop" : 1593701468031,
-        "duration" : 66469
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Should verify legend layer Work Order Points",
-      "uid" : "9db4d9227bed32a",
-      "parentUid" : "b755a79e149728f67460aea38b0710e0",
-      "status" : "broken",
-      "time" : {
-        "start" : 1593700146551,
-        "stop" : 1593700229654,
-        "duration" : 83103
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Should verify legend layer Work Order Points",
-      "uid" : "e169c65b222fe142",
-      "parentUid" : "b755a79e149728f67460aea38b0710e0",
-      "status" : "passed",
-      "time" : {
-        "start" : 1593703530840,
-        "stop" : 1593703619159,
-        "duration" : 88319
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    } ],
-    "uid" : "b755a79e149728f67460aea38b0710e0"
-  }, {
-    "name" : "0-1",
-    "children" : [ {
-      "name" : "verify service asbuilt count by town and street",
-      "uid" : "59accea912f4564b",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
-      "status" : "broken",
-      "time" : {
-        "start" : 1593700423710,
-        "stop" : 1593700427732,
-        "duration" : 4022
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "verify service asbuilt count by town and street",
-      "uid" : "56f572a7c12f3060",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
-      "status" : "broken",
-      "time" : {
-        "start" : 1593699943506,
-        "stop" : 1593700039764,
-        "duration" : 96258
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "verify main asbuilt count by town and street",
-      "uid" : "9415b842084b5d2d",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
-      "status" : "broken",
-      "time" : {
-        "start" : 1593700416337,
-        "stop" : 1593700423710,
-        "duration" : 7373
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "verify service asbuilt count by town and street",
-      "uid" : "61128e92329db264",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
-      "status" : "passed",
-      "time" : {
-        "start" : 1593701234047,
-        "stop" : 1593701295175,
-        "duration" : 61128
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "verify main asbuilt count by town and street",
-      "uid" : "71010d0fcb404458",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
-      "status" : "passed",
-      "time" : {
-        "start" : 1593703208492,
-        "stop" : 1593703361439,
-        "duration" : 152947
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "verify main asbuilt count by town and street",
-      "uid" : "ee05e87ffff86d24",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
-      "status" : "passed",
-      "time" : {
-        "start" : 1593701141267,
-        "stop" : 1593701234046,
-        "duration" : 92779
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "verify service asbuilt count by town and street",
-      "uid" : "297608e313d0fbb2",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
-      "status" : "passed",
-      "time" : {
-        "start" : 1593703361440,
-        "stop" : 1593703422360,
-        "duration" : 60920
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "verify main asbuilt count by town and street",
-      "uid" : "354950dfdba9824f",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
-      "status" : "broken",
-      "time" : {
-        "start" : 1593699856571,
-        "stop" : 1593699943505,
-        "duration" : 86934
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    } ],
-    "uid" : "27fa874cadc1574e37a07abb440963bd"
-  }, {
-    "name" : "0-2",
-    "children" : [ {
-      "name" : "TC_006 Identify functionality for valve",
-      "uid" : "c9bc43642f1e02eb",
-      "parentUid" : "880a094af3dffab161e2023284569d6f",
-      "status" : "broken",
-      "time" : {
-        "start" : 1593701301504,
-        "stop" : 1593701394399,
-        "duration" : 92895
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "TC_006 Identify functionality for valve",
-      "uid" : "973f29a9dd357898",
-      "parentUid" : "880a094af3dffab161e2023284569d6f",
-      "status" : "broken",
-      "time" : {
-        "start" : 1593703442696,
-        "stop" : 1593703523041,
-        "duration" : 80345
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "TC_006 Identify functionality for valve",
-      "uid" : "ebece7aa0de43cb2",
-      "parentUid" : "880a094af3dffab161e2023284569d6f",
-      "status" : "broken",
-      "time" : {
-        "start" : 1593700049445,
-        "stop" : 1593700135546,
-        "duration" : 86101
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    } ],
-    "uid" : "880a094af3dffab161e2023284569d6f"
-  }, {
-    "name" : "0-4",
-    "children" : [ {
-      "name" : "Login to testfieldbook",
-      "uid" : "d0450bf4047ab98a",
-      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
-      "status" : "broken",
-      "time" : {
-        "start" : 1593703627653,
-        "stop" : 1593703674427,
-        "duration" : 46774
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Login to testfieldbook",
-      "uid" : "5bd52ae58b145fc7",
-      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
-      "status" : "passed",
-      "time" : {
-        "start" : 1593700241924,
-        "stop" : 1593700418487,
-        "duration" : 176563
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Login to testfieldbook",
-      "uid" : "d5cf0bc1c6753309",
-      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
-      "status" : "passed",
-      "time" : {
-        "start" : 1593701475618,
-        "stop" : 1593701569436,
-        "duration" : 93818
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    } ],
-    "uid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d"
   } ],
   "name" : "timeline"
 }

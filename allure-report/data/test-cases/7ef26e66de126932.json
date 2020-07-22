@@ -1,0 +1,289 @@
+{
+  "uid" : "7ef26e66de126932",
+  "name" : "Login to testfieldbook",
+  "fullName" : "Validate SJG project card selected.Login to testfieldbook",
+  "historyId" : "31467bf11ad15678107725d52aef84c4",
+  "time" : {
+    "start" : 1595421939826,
+    "stop" : 1595421953336,
+    "duration" : 13510
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Validate SJG project card selected"
+  }, {
+    "name" : "testClass",
+    "value" : "Validate SJG project card selected"
+  }, {
+    "name" : "testMethod",
+    "value" : "Login to testfieldbook"
+  }, {
+    "name" : "package",
+    "value" : "Validate SJG project card selected"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome-10.0.18362"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8a049eb5d319d137",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595420716488,
+        "stop" : 1595420731177,
+        "duration" : 14689
+      }
+    }, {
+      "uid" : "260602a811e788d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595420613585,
+        "stop" : 1595420630795,
+        "duration" : 17210
+      }
+    }, {
+      "uid" : "5f4a6a237aa8f757",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595419025477,
+        "stop" : 1595419038074,
+        "duration" : 12597
+      }
+    }, {
+      "uid" : "3a597245748e92c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595418783389,
+        "stop" : 1595418795717,
+        "duration" : 12328
+      }
+    }, {
+      "uid" : "f90dc84c362ad467",
+      "status" : "failed",
+      "statusDetails" : "expected 8.1 to equal 0",
+      "time" : {
+        "start" : 1595418647365,
+        "stop" : 1595418662750,
+        "duration" : 15385
+      }
+    }, {
+      "uid" : "2ea93eef954beb88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595418020494,
+        "stop" : 1595418031705,
+        "duration" : 11211
+      }
+    }, {
+      "uid" : "d1702441e57a9ca7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595417051028,
+        "stop" : 1595417063321,
+        "duration" : 12293
+      }
+    }, {
+      "uid" : "24e3d8f2e700216f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595416794545,
+        "stop" : 1595416807058,
+        "duration" : 12513
+      }
+    }, {
+      "uid" : "3e1cca184fd07c49",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595416658294,
+        "stop" : 1595416673385,
+        "duration" : 15091
+      }
+    }, {
+      "uid" : "c9cd5ad60030158f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595416520779,
+        "stop" : 1595416534368,
+        "duration" : 13589
+      }
+    }, {
+      "uid" : "8ae3d10da2eeea50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595416352671,
+        "stop" : 1595416364406,
+        "duration" : 11735
+      }
+    }, {
+      "uid" : "d2e385ce98879574",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595416033999,
+        "stop" : 1595416045460,
+        "duration" : 11461
+      }
+    }, {
+      "uid" : "f964d52803fb1ac9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595415874518,
+        "stop" : 1595415886256,
+        "duration" : 11738
+      }
+    }, {
+      "uid" : "d842cabcc2955bd2",
+      "status" : "failed",
+      "statusDetails" : "expected 4.05 to equal 0",
+      "time" : {
+        "start" : 1595415482300,
+        "stop" : 1595415499881,
+        "duration" : 17581
+      }
+    }, {
+      "uid" : "df2544fbfde5db38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595415278345,
+        "stop" : 1595415290260,
+        "duration" : 11915
+      }
+    }, {
+      "uid" : "8b9a02fa9ad414d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595415024947,
+        "stop" : 1595415037872,
+        "duration" : 12925
+      }
+    }, {
+      "uid" : "fce9c954e40eaef5",
+      "status" : "failed",
+      "statusDetails" : "expected 4.05 to equal 0",
+      "time" : {
+        "start" : 1595414490668,
+        "stop" : 1595414510246,
+        "duration" : 19578
+      }
+    }, {
+      "uid" : "8308ba1bb99cd75f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595413739496,
+        "stop" : 1595413755502,
+        "duration" : 16006
+      }
+    }, {
+      "uid" : "69062a5e8dc7d1ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595258037146,
+        "stop" : 1595258048408,
+        "duration" : 11262
+      }
+    }, {
+      "uid" : "8890c62fb8c6532f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595257851624,
+        "stop" : 1595257863085,
+        "duration" : 11461
+      }
+    }, {
+      "uid" : "70c6a69971a04bbc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595257692691,
+        "stop" : 1595257706586,
+        "duration" : 13895
+      }
+    }, {
+      "uid" : "e09801c1fc944baa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595253309155,
+        "stop" : 1595253320272,
+        "duration" : 11117
+      }
+    }, {
+      "uid" : "5b9aa121575bd23d",
+      "status" : "failed",
+      "statusDetails" : "expected 92.4 to equal 0",
+      "time" : {
+        "start" : 1595253172594,
+        "stop" : 1595253184723,
+        "duration" : 12129
+      }
+    }, {
+      "uid" : "3f5dacfc860cec06",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595252908984,
+        "stop" : 1595252920061,
+        "duration" : 11077
+      }
+    }, {
+      "uid" : "445d489448a3dfc7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595252452908,
+        "stop" : 1595252464421,
+        "duration" : 11513
+      }
+    }, {
+      "uid" : "746110489b93d451",
+      "status" : "broken",
+      "statusDetails" : "Invalid Chai property: toEqual. Did you mean \"equal\"?",
+      "time" : {
+        "start" : 1595252197815,
+        "stop" : 1595252209828,
+        "duration" : 12013
+      }
+    }, {
+      "uid" : "72eb5ec55400fa7e",
+      "status" : "failed",
+      "statusDetails" : "expected 'Home Page | Mott MacDonald' to equal 'South Jersey Gas'",
+      "time" : {
+        "start" : 1595252031851,
+        "stop" : 1595252032413,
+        "duration" : 562
+      }
+    }, {
+      "uid" : "ba58f38772146145",
+      "status" : "failed",
+      "statusDetails" : "expected 'Home Page | Mott MacDonald' to equal 'South Jersey Gas'",
+      "time" : {
+        "start" : 1595251858847,
+        "stop" : 1595251859443,
+        "duration" : 596
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7ef26e66de126932.json",
+  "parameterValues" : [ "Chrome-10.0.18362" ]
+}

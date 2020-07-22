@@ -1,0 +1,58 @@
+{
+  "uid" : "ca63d45445d7eb96",
+  "name" : "Login to testfieldbook",
+  "fullName" : "Validate SJG project card selected.Login to testfieldbook",
+  "historyId" : "3f88353d71b29138002bf1f2627884a2",
+  "time" : {
+    "start" : 1595243491008,
+    "stop" : 1595243491097,
+    "duration" : 89
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Validate SJG project card selected"
+  }, {
+    "name" : "testClass",
+    "value" : "Validate SJG project card selected"
+  }, {
+    "name" : "testMethod",
+    "value" : "Login to testfieldbook"
+  }, {
+    "name" : "package",
+    "value" : "Validate SJG project card selected"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ca63d45445d7eb96.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,103 +1,52 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "children" : [ {
-    "name" : "Verifying basemap components",
+    "name" : "Validate SJG project card selected",
     "children" : [ {
-      "name" : "Should verify different components of the basemap",
-      "uid" : "8189722cc24448cc",
-      "parentUid" : "aa984c3bd53fcbd95f6f3d9c825624d7",
+      "name" : "Login to testfieldbook",
+      "uid" : "ca63d45445d7eb96",
+      "parentUid" : "427192859ff147eff742cf45266adcf9",
       "status" : "passed",
       "time" : {
-        "start" : 1593703115645,
-        "stop" : 1593703197859,
-        "duration" : 82214
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    } ],
-    "uid" : "aa984c3bd53fcbd95f6f3d9c825624d7"
-  }, {
-    "name" : "Verifying document finder count displayed",
-    "children" : [ {
-      "name" : "verify main asbuilt count by town and street",
-      "uid" : "71010d0fcb404458",
-      "parentUid" : "2ba83253264af04f97d033831cebd37f",
-      "status" : "passed",
-      "time" : {
-        "start" : 1593703208492,
-        "stop" : 1593703361439,
-        "duration" : 152947
+        "start" : 1595243491008,
+        "stop" : 1595243491097,
+        "duration" : 89
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
-      "name" : "verify service asbuilt count by town and street",
-      "uid" : "297608e313d0fbb2",
-      "parentUid" : "2ba83253264af04f97d033831cebd37f",
+      "name" : "Login to testfieldbook",
+      "uid" : "7ef26e66de126932",
+      "parentUid" : "427192859ff147eff742cf45266adcf9",
       "status" : "passed",
       "time" : {
-        "start" : 1593703361440,
-        "stop" : 1593703422360,
-        "duration" : 60920
+        "start" : 1595421939826,
+        "stop" : 1595421953336,
+        "duration" : 13510
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "chrome" ]
+      "parameters" : [ "Chrome-10.0.18362" ]
     } ],
-    "uid" : "2ba83253264af04f97d033831cebd37f"
-  }, {
-    "name" : "Verifying identify functionality",
-    "children" : [ {
-      "name" : "TC_006 Identify functionality for valve",
-      "uid" : "973f29a9dd357898",
-      "parentUid" : "c8cd1830d0f80ba69ff7b2f185c57b1c",
-      "status" : "broken",
-      "time" : {
-        "start" : 1593703442696,
-        "stop" : 1593703523041,
-        "duration" : 80345
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    } ],
-    "uid" : "c8cd1830d0f80ba69ff7b2f185c57b1c"
+    "uid" : "427192859ff147eff742cf45266adcf9"
   }, {
     "name" : "Verifying legend components",
     "children" : [ {
       "name" : "Should verify legend layer Work Order Points",
-      "uid" : "e169c65b222fe142",
+      "uid" : "847ddb5efa7f29bf",
       "parentUid" : "129208746e123446f08aad9b839d13dc",
-      "status" : "passed",
+      "status" : "failed",
       "time" : {
-        "start" : 1593703530840,
-        "stop" : 1593703619159,
-        "duration" : 88319
+        "start" : 1595244543495,
+        "stop" : 1595244551413,
+        "duration" : 7918
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     } ],
     "uid" : "129208746e123446f08aad9b839d13dc"
-  }, {
-    "name" : "Interacting with elements",
-    "children" : [ {
-      "name" : "Login to testfieldbook",
-      "uid" : "d0450bf4047ab98a",
-      "parentUid" : "4ce41e744219b10dee04e50cc3ecb15b",
-      "status" : "broken",
-      "time" : {
-        "start" : 1593703627653,
-        "stop" : 1593703674427,
-        "duration" : 46774
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    } ],
-    "uid" : "4ce41e744219b10dee04e50cc3ecb15b"
   } ],
   "name" : "suites"
 }

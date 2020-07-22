@@ -1,60 +1,30 @@
 [ {
-  "uid" : "8189722cc24448cc",
-  "name" : "Should verify different components of the basemap",
-  "time" : {
-    "start" : 1593703115645,
-    "stop" : 1593703197859,
-    "duration" : 82214
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e169c65b222fe142",
+  "uid" : "847ddb5efa7f29bf",
   "name" : "Should verify legend layer Work Order Points",
   "time" : {
-    "start" : 1593703530840,
-    "stop" : 1593703619159,
-    "duration" : 88319
+    "start" : 1595244543495,
+    "stop" : 1595244551413,
+    "duration" : 7918
   },
-  "status" : "passed",
+  "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "d0450bf4047ab98a",
+  "uid" : "ca63d45445d7eb96",
   "name" : "Login to testfieldbook",
   "time" : {
-    "start" : 1593703627653,
-    "stop" : 1593703674427,
-    "duration" : 46774
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "71010d0fcb404458",
-  "name" : "verify main asbuilt count by town and street",
-  "time" : {
-    "start" : 1593703208492,
-    "stop" : 1593703361439,
-    "duration" : 152947
+    "start" : 1595243491008,
+    "stop" : 1595243491097,
+    "duration" : 89
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "973f29a9dd357898",
-  "name" : "TC_006 Identify functionality for valve",
+  "uid" : "7ef26e66de126932",
+  "name" : "Login to testfieldbook",
   "time" : {
-    "start" : 1593703442696,
-    "stop" : 1593703523041,
-    "duration" : 80345
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "297608e313d0fbb2",
-  "name" : "verify service asbuilt count by town and street",
-  "time" : {
-    "start" : 1593703361440,
-    "stop" : 1593703422360,
-    "duration" : 60920
+    "start" : 1595421939826,
+    "stop" : 1595421953336,
+    "duration" : 13510
   },
   "status" : "passed",
   "severity" : "normal"
