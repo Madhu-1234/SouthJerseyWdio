@@ -1,6 +1,6 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Wed Jul 22 18:15:39 IST 2020","Wed Jul 22 18:15:53 IST 2020","13510","","Validate SJG project card selected","","Validate SJG project card selected","Login to testfieldbook","Login to testfieldbook",""
 "passed","Thu Jul 23 01:20:31 IST 2020","Thu Jul 23 01:20:37 IST 2020","6491","","Verifying basemap components","","Verifying basemap components","Should verify different components of the basemap","Should verify different components of the basemap",""
+"passed","Mon Jul 20 16:41:31 IST 2020","Mon Jul 20 16:41:31 IST 2020","89","","Validate SJG project card selected","","Validate SJG project card selected","Login to testfieldbook","Login to testfieldbook",""
 "passed","Thu Jul 23 01:40:41 IST 2020","Thu Jul 23 01:40:49 IST 2020","7958","","Verifying basemap components","","Verifying basemap components","Should verify different components of the basemap","Should verify different components of the basemap",""
 "failed","Mon Jul 20 16:59:03 IST 2020","Mon Jul 20 16:59:11 IST 2020","7918","","Verifying legend components","","Verifying legend components","Should verify legend layer Work Order Points","Should verify legend layer Work Order Points",""
-"passed","Mon Jul 20 16:41:31 IST 2020","Mon Jul 20 16:41:31 IST 2020","89","","Validate SJG project card selected","","Validate SJG project card selected","Login to testfieldbook","Login to testfieldbook",""
+"passed","Wed Jul 22 18:15:39 IST 2020","Wed Jul 22 18:15:53 IST 2020","13510","","Validate SJG project card selected","","Validate SJG project card selected","Login to testfieldbook","Login to testfieldbook",""

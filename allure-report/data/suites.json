@@ -4,7 +4,7 @@
     "name" : "Validate SJG project card selected",
     "children" : [ {
       "name" : "Login to testfieldbook",
-      "uid" : "59b2e3003ceedea2",
+      "uid" : "28b94b8627b4eea",
       "parentUid" : "427192859ff147eff742cf45266adcf9",
       "status" : "passed",
       "time" : {
@@ -17,7 +17,7 @@
       "parameters" : [ "chrome" ]
     }, {
       "name" : "Login to testfieldbook",
-      "uid" : "d0b89fc3d41b5da6",
+      "uid" : "da078f4dc92a418f",
       "parentUid" : "427192859ff147eff742cf45266adcf9",
       "status" : "passed",
       "time" : {
@@ -34,7 +34,7 @@
     "name" : "Verifying legend components",
     "children" : [ {
       "name" : "Should verify legend layer Work Order Points",
-      "uid" : "57a12b23f87cfe17",
+      "uid" : "96d6a596d0c3c7e6",
       "parentUid" : "129208746e123446f08aad9b839d13dc",
       "status" : "failed",
       "time" : {
@@ -51,7 +51,7 @@
     "name" : "Verifying basemap components",
     "children" : [ {
       "name" : "Should verify different components of the basemap",
-      "uid" : "2abdc759bcbbd683",
+      "uid" : "59554397c3580043",
       "parentUid" : "aa984c3bd53fcbd95f6f3d9c825624d7",
       "status" : "passed",
       "time" : {
@@ -64,7 +64,7 @@
       "parameters" : [ "Chrome-10.0.18362" ]
     }, {
       "name" : "Should verify different components of the basemap",
-      "uid" : "2cc9b42c47ebe783",
+      "uid" : "686e91bf5aa5dc11",
       "parentUid" : "aa984c3bd53fcbd95f6f3d9c825624d7",
       "status" : "passed",
       "time" : {

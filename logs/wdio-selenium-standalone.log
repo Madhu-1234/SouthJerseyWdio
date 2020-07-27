@@ -1,11 +1,11 @@
-01:39:43.534 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+22:41:53.195 INFO [ActiveSessionFactory.apply] - Capabilities are: {
   "browserName": "chrome"
 }
-01:39:43.534 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
-Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 19539
+22:41:53.198 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 26192
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-01:39:57.515 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
-01:39:57.559 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 8a4a65af3de3f96ce9381ff4625711df (org.openqa.selenium.chrome.ChromeDriverService)
-01:40:49.947 INFO [ActiveSessions$1.onStop] - Removing session 8a4a65af3de3f96ce9381ff4625711df (org.openqa.selenium.chrome.ChromeDriverService)
+22:41:58.164 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+22:41:58.195 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 329dfd72d6064cc715df33626889a679 (org.openqa.selenium.chrome.ChromeDriverService)
+22:43:02.829 INFO [ActiveSessions$1.onStop] - Removing session 329dfd72d6064cc715df33626889a679 (org.openqa.selenium.chrome.ChromeDriverService)
