@@ -1,0 +1,58 @@
+{
+  "uid" : "93bbaa25c11808ae",
+  "name" : "verify main asbuilt,service asbuilt count by town and street and advanced search",
+  "fullName" : "Verifying document finder count displayed.verify main asbuilt,service asbuilt count by town and street and advanced search",
+  "historyId" : "48f36ed023616a0383160824c4fc7bb2",
+  "time" : {
+    "start" : 1598446473544,
+    "stop" : 1598446561083,
+    "duration" : 87539
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Verifying document finder count displayed"
+  }, {
+    "name" : "testClass",
+    "value" : "Verifying document finder count displayed"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify main asbuilt,service asbuilt count by town and street and advanced search"
+  }, {
+    "name" : "package",
+    "value" : "Verifying document finder count displayed"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "93bbaa25c11808ae.json",
+  "parameterValues" : [ "chrome" ]
+}

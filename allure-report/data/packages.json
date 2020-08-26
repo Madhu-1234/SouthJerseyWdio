@@ -1,46 +1,67 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "children" : [ {
-    "name" : "Validate SJG project card selected",
+    "name" : "Verifying basemap components",
     "children" : [ {
-      "name" : "Login to testfieldbook",
-      "uid" : "28b94b8627b4eea",
-      "parentUid" : "faeff29ae252263cedea1810ab7c0967",
+      "name" : "Should verify different components of the basemap",
+      "uid" : "9201e943fa5758b2",
+      "parentUid" : "a794acf09a3482bb36498f051470a083",
       "status" : "passed",
       "time" : {
-        "start" : 1595243491008,
-        "stop" : 1595243491097,
-        "duration" : 89
+        "start" : 1598446416792,
+        "stop" : 1598446423307,
+        "duration" : 6515
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Login to testfieldbook",
-      "uid" : "da078f4dc92a418f",
-      "parentUid" : "faeff29ae252263cedea1810ab7c0967",
+    } ],
+    "uid" : "a794acf09a3482bb36498f051470a083"
+  }, {
+    "name" : "Verifying document finder count displayed",
+    "children" : [ {
+      "name" : "verify main asbuilt,service asbuilt count by town and street and advanced search",
+      "uid" : "93bbaa25c11808ae",
+      "parentUid" : "c1499ae8be06f4c9889ea79ed180947a",
       "status" : "passed",
       "time" : {
-        "start" : 1595421939826,
-        "stop" : 1595421953336,
-        "duration" : 13510
+        "start" : 1598446473544,
+        "stop" : 1598446561083,
+        "duration" : 87539
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "Chrome-10.0.18362" ]
+      "parameters" : [ "chrome" ]
     } ],
-    "uid" : "faeff29ae252263cedea1810ab7c0967"
+    "uid" : "c1499ae8be06f4c9889ea79ed180947a"
+  }, {
+    "name" : "Verifying identify functionality",
+    "children" : [ {
+      "name" : "TC_006 Identify functionality for division locations",
+      "uid" : "d36cd7a97145c2e6",
+      "parentUid" : "6e37c09f034ecc7f0c78becaa81ef4de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598446667271,
+        "stop" : 1598446718175,
+        "duration" : 50904
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "6e37c09f034ecc7f0c78becaa81ef4de"
   }, {
     "name" : "Verifying legend components",
     "children" : [ {
       "name" : "Should verify legend layer Work Order Points",
-      "uid" : "96d6a596d0c3c7e6",
+      "uid" : "2c13678f0cfbb910",
       "parentUid" : "bc75f46cc54a180c49afc5a6d9b6c7c4",
-      "status" : "failed",
+      "status" : "passed",
       "time" : {
-        "start" : 1595244543495,
-        "stop" : 1595244551413,
-        "duration" : 7918
+        "start" : 1598446791618,
+        "stop" : 1598446800837,
+        "duration" : 9219
       },
       "flaky" : false,
       "newFailed" : false,
@@ -48,35 +69,73 @@
     } ],
     "uid" : "bc75f46cc54a180c49afc5a6d9b6c7c4"
   }, {
-    "name" : "Verifying basemap components",
+    "name" : "Validate SJG project card selected",
     "children" : [ {
-      "name" : "Should verify different components of the basemap",
-      "uid" : "59554397c3580043",
-      "parentUid" : "a794acf09a3482bb36498f051470a083",
+      "name" : "Login to testfieldbook",
+      "uid" : "1a2f7bbeb70512ef",
+      "parentUid" : "faeff29ae252263cedea1810ab7c0967",
       "status" : "passed",
       "time" : {
-        "start" : 1595447431331,
-        "stop" : 1595447437822,
-        "duration" : 6491
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "Chrome-10.0.18362" ]
-    }, {
-      "name" : "Should verify different components of the basemap",
-      "uid" : "686e91bf5aa5dc11",
-      "parentUid" : "a794acf09a3482bb36498f051470a083",
-      "status" : "passed",
-      "time" : {
-        "start" : 1595448641278,
-        "stop" : 1595448649236,
-        "duration" : 7958
+        "start" : 1598446865366,
+        "stop" : 1598446883090,
+        "duration" : 17724
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     } ],
-    "uid" : "a794acf09a3482bb36498f051470a083"
+    "uid" : "faeff29ae252263cedea1810ab7c0967"
+  }, {
+    "name" : "Verifying print functionality",
+    "children" : [ {
+      "name" : "Should display a new pdf tab for print",
+      "uid" : "e635f8bd7c304eb8",
+      "parentUid" : "c902402f0bbd83a82a6083aa96376a6d",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1598446974582,
+        "stop" : 1598446974582,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "c902402f0bbd83a82a6083aa96376a6d"
+  }, {
+    "name" : "Verifying feature and reverse geocode",
+    "children" : [ {
+      "name" : "Should verify tooltip after search",
+      "uid" : "2772f7afe6709ab3",
+      "parentUid" : "94be22dc59de94cf94ae2fd4adf227dc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598447030583,
+        "stop" : 1598447099072,
+        "duration" : 68489
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "94be22dc59de94cf94ae2fd4adf227dc"
+  }, {
+    "name" : "Verifying Google StreetView",
+    "children" : [ {
+      "name" : "Should verify Google streetview",
+      "uid" : "655e3658055cd884",
+      "parentUid" : "373f07f49fb919b52d838013529f7de0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598447928720,
+        "stop" : 1598447961236,
+        "duration" : 32516
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "373f07f49fb919b52d838013529f7de0"
   } ],
   "name" : "packages"
 }

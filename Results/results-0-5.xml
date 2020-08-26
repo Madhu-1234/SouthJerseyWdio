@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Verifying_print_functionality" timestamp="2020-08-26T18:32:54" time="0.004" tests="1" failures="0" errors="0" skipped="1">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Verifying print functionality"/>
+      <property name="capabilities" value="chrome.84_0_4147_135.windows"/>
+      <property name="file" value=".\test\print.test.js"/>
+    </properties>
+    <testcase classname="chrome.84_0_4147_135.windows.Verifying_print_functionality" name="Should_display_a_new_pdf_tab_for_print" time="0">
+      <skipped/>
+      <system-out>
+        <![CDATA[
+COMMAND: DELETE /session/04d27c5ef8938cb1165cfc17d07ffee0 - {}
+RESULT: {}
+]]>
+      </system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

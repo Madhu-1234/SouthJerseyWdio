@@ -1,0 +1,58 @@
+{
+  "uid" : "d36cd7a97145c2e6",
+  "name" : "TC_006 Identify functionality for division locations",
+  "fullName" : "Verifying identify functionality.TC_006 Identify functionality for division locations",
+  "historyId" : "a79a631f888ae5a3dfca8a0b6e971d03",
+  "time" : {
+    "start" : 1598446667271,
+    "stop" : 1598446718175,
+    "duration" : 50904
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Verifying identify functionality"
+  }, {
+    "name" : "testClass",
+    "value" : "Verifying identify functionality"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_006 Identify functionality for division locations"
+  }, {
+    "name" : "package",
+    "value" : "Verifying identify functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d36cd7a97145c2e6.json",
+  "parameterValues" : [ "chrome" ]
+}

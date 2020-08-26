@@ -7,13 +7,6 @@ describe("Verifying feature and reverse geocode", function(){
 
     it("Should verify tooltip after search", ()=>{
 
-        /*browser.url('/')
-        browser.maximizeWindow()
-        homePagePages.homePageSubmit('mmishra' , 'password=1')
-        homePagePages.clickSJGTest()
-        browser.pause(20000)
-        browser.switchWindow('South Jersey Gas')
-        */
         sjgFieldbookPages.featureSearchMainAsset('CI2ZB198')
         browser.pause(7000)
        

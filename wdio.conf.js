@@ -1,7 +1,8 @@
 
 global.jiraIssue = "SJFS-99";
+
 const { join } = require('path');
-const sendMailFunc = require('./utils/sendMail');
+const excelReader = require('./utils/excelReader');
 exports.config = {
     //
     // ====================
@@ -113,7 +114,7 @@ exports.config = {
     // Services take over a specific job you don't want to take care of. They enhance
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
-    services: ['chromedriver'],
+    //    services: ['chromedriver'],
     services: [ 
         ['image-comparison', 
         // The options
@@ -128,9 +129,7 @@ exports.config = {
             blockOutToolBar: true,
             autoSaveBaseline: true
             // ... more options
-        }], 
-    ],
-    services: [
+        }],
         ['selenium-standalone', {
             logPath: 'logs',
             installArgs: {
@@ -145,8 +144,9 @@ exports.config = {
                     firefox: { version: '0.26.0' }
                 }
             },
-        }]
+        }] 
     ],
+    
 
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
@@ -165,23 +165,35 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter.html
-    reporters: ['spec'],
-    reporters: [['allure', {
-        outputDir: 'allure-results',
-        disableWebdriverStepsReporting: true,
-        disableWebdriverScreenshotsReporting: true,
-        
-
-    }]],
-    reporters: [
-        'dot',
+    
+      reporters: [
+        'dot', 'spec',
         ['junit', {
-            outputDir: './',
+            outputDir: './Results',
             outputFileFormat: function(options) { // optional
-                return `results-${options.cid}.${options.capabilities}.xml`
+                return `results-${options.cid}.xml`
+                
             }
-        }]
+        }],
+        ['allure', {
+            outputDir: 'allure-results',
+            disableWebdriverStepsReporting: true,
+            disableWebdriverScreenshotsReporting: true,
+            
+    
+        }],
+        ['mochawesome',{
+            outputDir: './MochawesomeResults',
+            outputFileFormat: function(opts) { 
+                return `results-${opts.cid}.json`
+            }
+          }]
+        
+        
+        
+        
     ],
+    
     
 
    
@@ -237,15 +249,17 @@ exports.config = {
      * @param {Array.<String>} specs List of spec file paths that are to be run
      */
     before: function () {
-       
-        browser.pause(8000)
+        require('./utils/excelReader');
         console.log('running before log')
         browser.url('/')
-        //browser.maximizeWindow()
-        $('#UserName').setValue('mmishra')
-        $('#Password').setValue('password=2')
+        browser.maximizeWindow()
+        let username = excelReader.getUsername()
+        let paswd = excelReader.getPassword()
+        //console.log(username)
+        $('#UserName').setValue(username)
+        $('#Password').setValue(paswd)
         $('input[type="submit"]').click()
-        $('img[src="/Images/Fieldbook_Project cards(491).png"]' ).click()
+        $('img[src="/Images/Fieldbook_Project cards(491).png"]').click()
         browser.pause(20000)
         browser.switchWindow('South Jersey Gas')
 
@@ -370,6 +384,8 @@ exports.config = {
 
                 console.log('Allure report successfully generated')
                 resolve()
+
+             
                
                /* //Nodemailer module
                 var nodemailer = require('nodemailer');
@@ -395,7 +411,7 @@ exports.config = {
 
 */
 
-sendMailFunc();
+
 
 });
   

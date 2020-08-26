@@ -6,13 +6,6 @@ describe("Verifying Google StreetView", function(){
 
     it("Should verify Google streetview", ()=>{
 
-        /*browser.url('/')
-        browser.maximizeWindow()
-        homePagePages.homePageSubmit('mmishra' , 'password=1')
-        homePagePages.clickSJGTest()
-        browser.pause(20000)
-        browser.switchWindow('South Jersey Gas')
-        */
         sjgFieldbookPages.searchAddress('2701 Shore Road, Ocean View, NJ 08230, USA')
         
         

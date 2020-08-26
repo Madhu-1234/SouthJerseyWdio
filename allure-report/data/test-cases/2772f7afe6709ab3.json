@@ -1,0 +1,58 @@
+{
+  "uid" : "2772f7afe6709ab3",
+  "name" : "Should verify tooltip after search",
+  "fullName" : "Verifying feature and reverse geocode.Should verify tooltip after search",
+  "historyId" : "e445ff7e90bb64d4242c07791dea7a3b",
+  "time" : {
+    "start" : 1598447030583,
+    "stop" : 1598447099072,
+    "duration" : 68489
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "Verifying feature and reverse geocode"
+  }, {
+    "name" : "testClass",
+    "value" : "Verifying feature and reverse geocode"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should verify tooltip after search"
+  }, {
+    "name" : "package",
+    "value" : "Verifying feature and reverse geocode"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2772f7afe6709ab3.json",
+  "parameterValues" : [ "chrome" ]
+}

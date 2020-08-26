@@ -1,438 +1,150 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
+    "name" : "0-4",
+    "children" : [ {
+      "name" : "Login to testfieldbook",
+      "uid" : "1a2f7bbeb70512ef",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598446865366,
+        "stop" : 1598446883090,
+        "duration" : 17724
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d"
+  }, {
+    "name" : "0-2",
+    "children" : [ {
+      "name" : "TC_006 Identify functionality for division locations",
+      "uid" : "d36cd7a97145c2e6",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598446667271,
+        "stop" : 1598446718175,
+        "duration" : 50904
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "880a094af3dffab161e2023284569d6f"
+  }, {
     "name" : "0-0",
     "children" : [ {
-      "name" : "Should verify different components of the basemap",
-      "uid" : "686e91bf5aa5dc11",
+      "name" : "Should verify Google streetview",
+      "uid" : "655e3658055cd884",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1595448641278,
-        "stop" : 1595448649236,
-        "duration" : 7958
+        "start" : 1598447928720,
+        "stop" : 1598447961236,
+        "duration" : 32516
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Login to testfieldbook",
-      "uid" : "28b94b8627b4eea",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1595243491008,
-        "stop" : 1595243491097,
-        "duration" : 89
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Login to testfieldbook",
-      "uid" : "7a4af28657438840",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1595252452908,
-        "stop" : 1595252464421,
-        "duration" : 11513
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "Chrome-10.0.18362" ]
-    }, {
-      "name" : "Login to testfieldbook",
-      "uid" : "c95c007f798f25fa",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1595416794545,
-        "stop" : 1595416807058,
-        "duration" : 12513
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "Chrome-10.0.18362" ]
-    }, {
-      "name" : "Login to testfieldbook",
-      "uid" : "a0540caa35ea2f3",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1595253309155,
-        "stop" : 1595253320272,
-        "duration" : 11117
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "Chrome-10.0.18362" ]
-    }, {
-      "name" : "Login to testfieldbook",
-      "uid" : "33b80d3696d10521",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1595416033999,
-        "stop" : 1595416045460,
-        "duration" : 11461
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "Chrome-10.0.18362" ]
-    }, {
-      "name" : "Should verify legend layer Work Order Points",
-      "uid" : "96d6a596d0c3c7e6",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "failed",
-      "time" : {
-        "start" : 1595244543495,
-        "stop" : 1595244551413,
-        "duration" : 7918
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Login to testfieldbook",
-      "uid" : "b36271494a4d34d1",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1595420716488,
-        "stop" : 1595420731177,
-        "duration" : 14689
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "Chrome-10.0.18362" ]
-    }, {
-      "name" : "Login to testfieldbook",
-      "uid" : "9b421650585b66ac",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "failed",
-      "time" : {
-        "start" : 1595253172594,
-        "stop" : 1595253184723,
-        "duration" : 12129
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "Chrome-10.0.18362" ]
-    }, {
-      "name" : "Login to testfieldbook",
-      "uid" : "3f91842e97135c70",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "failed",
-      "time" : {
-        "start" : 1595415482300,
-        "stop" : 1595415499881,
-        "duration" : 17581
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "Chrome-10.0.18362" ]
-    }, {
-      "name" : "Login to testfieldbook",
-      "uid" : "b37f363ae6842094",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1595415278345,
-        "stop" : 1595415290260,
-        "duration" : 11915
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "Chrome-10.0.18362" ]
-    }, {
-      "name" : "Login to testfieldbook",
-      "uid" : "95136e86216cabcf",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1595257692691,
-        "stop" : 1595257706586,
-        "duration" : 13895
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "Chrome-10.0.18362" ]
-    }, {
-      "name" : "Login to testfieldbook",
-      "uid" : "2f9b1a4f8060cd16",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1595418783389,
-        "stop" : 1595418795717,
-        "duration" : 12328
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "Chrome-10.0.18362" ]
-    }, {
-      "name" : "Login to testfieldbook",
-      "uid" : "6d62601742948849",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1595419025477,
-        "stop" : 1595419038074,
-        "duration" : 12597
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "Chrome-10.0.18362" ]
-    }, {
-      "name" : "Login to testfieldbook",
-      "uid" : "8b96fb147938ca99",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "failed",
-      "time" : {
-        "start" : 1595251858847,
-        "stop" : 1595251859443,
-        "duration" : 596
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "Chrome-10.0.18362" ]
-    }, {
-      "name" : "Login to testfieldbook",
-      "uid" : "134ee06d12e286ae",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "failed",
-      "time" : {
-        "start" : 1595414490668,
-        "stop" : 1595414510246,
-        "duration" : 19578
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "Chrome-10.0.18362" ]
     }, {
       "name" : "Should verify different components of the basemap",
-      "uid" : "59554397c3580043",
+      "uid" : "9201e943fa5758b2",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1595447431331,
-        "stop" : 1595447437822,
-        "duration" : 6491
+        "start" : 1598446416792,
+        "stop" : 1598446423307,
+        "duration" : 6515
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "Chrome-10.0.18362" ]
-    }, {
-      "name" : "Login to testfieldbook",
-      "uid" : "637a947801d89322",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1595413739496,
-        "stop" : 1595413755502,
-        "duration" : 16006
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "Chrome-10.0.18362" ]
-    }, {
-      "name" : "Login to testfieldbook",
-      "uid" : "28adaadae657cdf7",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1595420613585,
-        "stop" : 1595420630795,
-        "duration" : 17210
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "Chrome-10.0.18362" ]
-    }, {
-      "name" : "Login to testfieldbook",
-      "uid" : "c0995af3888301c7",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1595416658294,
-        "stop" : 1595416673385,
-        "duration" : 15091
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "Chrome-10.0.18362" ]
-    }, {
-      "name" : "Login to testfieldbook",
-      "uid" : "bda24c1f6f41a7ab",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1595418020494,
-        "stop" : 1595418031705,
-        "duration" : 11211
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "Chrome-10.0.18362" ]
-    }, {
-      "name" : "Login to testfieldbook",
-      "uid" : "4e78fb371e09a969",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1595416520779,
-        "stop" : 1595416534368,
-        "duration" : 13589
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "Chrome-10.0.18362" ]
-    }, {
-      "name" : "Login to testfieldbook",
-      "uid" : "bdf9fb4b0e9a58f3",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1595252908984,
-        "stop" : 1595252920061,
-        "duration" : 11077
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "Chrome-10.0.18362" ]
-    }, {
-      "name" : "Login to testfieldbook",
-      "uid" : "8ba0c9b6d4efda5d",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1595258037146,
-        "stop" : 1595258048408,
-        "duration" : 11262
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "Chrome-10.0.18362" ]
-    }, {
-      "name" : "Login to testfieldbook",
-      "uid" : "f365d33c86a333bb",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1595415874518,
-        "stop" : 1595415886256,
-        "duration" : 11738
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "Chrome-10.0.18362" ]
-    }, {
-      "name" : "Login to testfieldbook",
-      "uid" : "b9019798053aded2",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1595416352671,
-        "stop" : 1595416364406,
-        "duration" : 11735
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "Chrome-10.0.18362" ]
-    }, {
-      "name" : "Login to testfieldbook",
-      "uid" : "da078f4dc92a418f",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1595421939826,
-        "stop" : 1595421953336,
-        "duration" : 13510
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "Chrome-10.0.18362" ]
-    }, {
-      "name" : "Login to testfieldbook",
-      "uid" : "9bafb18b81ad88bc",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "failed",
-      "time" : {
-        "start" : 1595418647365,
-        "stop" : 1595418662750,
-        "duration" : 15385
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "Chrome-10.0.18362" ]
-    }, {
-      "name" : "Login to testfieldbook",
-      "uid" : "f25c1b64fe212146",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "failed",
-      "time" : {
-        "start" : 1595252031851,
-        "stop" : 1595252032413,
-        "duration" : 562
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "Chrome-10.0.18362" ]
-    }, {
-      "name" : "Login to testfieldbook",
-      "uid" : "c0c39d03a89c5eb1",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1595415024947,
-        "stop" : 1595415037872,
-        "duration" : 12925
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "Chrome-10.0.18362" ]
-    }, {
-      "name" : "Login to testfieldbook",
-      "uid" : "9ca3d200665d69c",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1595257851624,
-        "stop" : 1595257863085,
-        "duration" : 11461
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "Chrome-10.0.18362" ]
-    }, {
-      "name" : "Login to testfieldbook",
-      "uid" : "ac59509e34d4d838",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1595252197815,
-        "stop" : 1595252209828,
-        "duration" : 12013
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "Chrome-10.0.18362" ]
-    }, {
-      "name" : "Login to testfieldbook",
-      "uid" : "c2f4b5f5c25cd949",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1595417051028,
-        "stop" : 1595417063321,
-        "duration" : 12293
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "Chrome-10.0.18362" ]
+      "parameters" : [ "chrome" ]
     } ],
     "uid" : "516fe00eea05ad99e936fa729b55eff4"
+  }, {
+    "name" : "0-7",
+    "children" : [ {
+      "name" : "Should verify Google streetview",
+      "uid" : "1ce70b0f950c061c",
+      "parentUid" : "21aceb05e3618121b78af6a48c646d54",
+      "status" : "broken",
+      "time" : {
+        "start" : 1598447169458,
+        "stop" : 1598447469531,
+        "duration" : 300073
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "21aceb05e3618121b78af6a48c646d54"
+  }, {
+    "name" : "0-1",
+    "children" : [ {
+      "name" : "verify main asbuilt,service asbuilt count by town and street and advanced search",
+      "uid" : "93bbaa25c11808ae",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598446473544,
+        "stop" : 1598446561083,
+        "duration" : 87539
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "27fa874cadc1574e37a07abb440963bd"
+  }, {
+    "name" : "Should display a new pdf tab for print",
+    "uid" : "e635f8bd7c304eb8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1598446974582,
+      "stop" : 1598446974582,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "0-6",
+    "children" : [ {
+      "name" : "Should verify tooltip after search",
+      "uid" : "2772f7afe6709ab3",
+      "parentUid" : "6d5170ae525a2fb0dfa4066ed7bef924",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598447030583,
+        "stop" : 1598447099072,
+        "duration" : 68489
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "6d5170ae525a2fb0dfa4066ed7bef924"
+  }, {
+    "name" : "0-3",
+    "children" : [ {
+      "name" : "Should verify legend layer Work Order Points",
+      "uid" : "2c13678f0cfbb910",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598446791618,
+        "stop" : 1598446800837,
+        "duration" : 9219
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "b755a79e149728f67460aea38b0710e0"
   } ],
   "name" : "timeline"
 }

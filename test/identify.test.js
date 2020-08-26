@@ -4,7 +4,7 @@ const { assert, expect } = require("chai")
 
 describe("Verifying identify functionality", function(){
 
-    it("TC_006 Identify functionality for valve", ()=>{
+    it("TC_006 Identify functionality for division locations", ()=>{
 
         sjgFieldbookPages.searchAddress('maryland ter, atlantic city, nj')
         browser.pause(10000)
@@ -17,7 +17,7 @@ describe("Verifying identify functionality", function(){
         browser.pause(9000)
         logo.click({ x: 25, y: 97 })
         browser.pause(9000)
-        assert.equal($('//*[@id="identifyLayerName"]/b').getText(), 'Main Assets')
+        assert.equal($('//*[@id="identifyLayerName"]/b').getText(), 'Division Locations')
 
               
     })

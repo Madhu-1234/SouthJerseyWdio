@@ -1,0 +1,58 @@
+{
+  "uid" : "2c13678f0cfbb910",
+  "name" : "Should verify legend layer Work Order Points",
+  "fullName" : "Verifying legend components.Should verify legend layer Work Order Points",
+  "historyId" : "50fec78f9488a536ff6c0bde20e50ce7",
+  "time" : {
+    "start" : 1598446791618,
+    "stop" : 1598446800837,
+    "duration" : 9219
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "Verifying legend components"
+  }, {
+    "name" : "testClass",
+    "value" : "Verifying legend components"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should verify legend layer Work Order Points"
+  }, {
+    "name" : "package",
+    "value" : "Verifying legend components"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2c13678f0cfbb910.json",
+  "parameterValues" : [ "chrome" ]
+}

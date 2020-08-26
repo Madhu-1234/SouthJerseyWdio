@@ -204,6 +204,7 @@ class sjgFieldbookPage{
 
     checkFooterCount(){
         
+        $('//*[@id="kendoPSEGDocumentsGrid"]/div[5]/span[2]').scrollIntoView();
         var string1 = $('//*[@id="kendoPSEGDocumentsGrid"]/div[5]/span[2]').getText()
         var temp = string1.split(" ")
         console.log(temp[4])
@@ -245,13 +246,13 @@ class sjgFieldbookPage{
         browser.keys('Enter')
 
 
-        browser.pause(4000)
+        browser.pause(3000)
         $('//*[@id="advanceSearch"]/div/div[1]/div[3]/span/span').click()
         $('//*[@id="advStreet-list"]/span/input').setValue(street)
         browser.pause(2000)
         browser.keys('Enter')
 
-        browser.pause(5000)
+        browser.pause(3000)
         $('//*[@id="advanceSearch"]/div/div[1]/div[4]/span/span').click()
         $('//*[@id="advDocument-list"]/span/input').setValue(document)
         browser.pause(2000)
