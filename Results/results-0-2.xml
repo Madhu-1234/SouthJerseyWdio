@@ -1,71 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="Verifying_identify_functionality" timestamp="2020-08-26T18:27:47" time="50.909" tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="Verifying_identify_functionality" timestamp="2020-09-16T15:26:59" time="49.082" tests="1" failures="0" errors="1" skipped="0">
     <properties>
       <property name="specId" value="0"/>
       <property name="suiteName" value="Verifying identify functionality"/>
-      <property name="capabilities" value="chrome.84_0_4147_135.windows"/>
+      <property name="capabilities" value="chrome.85_0_4183_102.windows"/>
       <property name="file" value=".\test\identify.test.js"/>
     </properties>
-    <testcase classname="chrome.84_0_4147_135.windows.Verifying_identify_functionality" name="TC_006_Identify_functionality_for_division_locations" time="50.903">
+    <testcase classname="chrome.85_0_4183_102.windows.Verifying_identify_functionality" name="TC_006_Identify_functionality_for_division_locations" time="49.076">
+      <error message="expected 'Main Assets' to equal 'Division Locations'"/>
       <system-out>
         <![CDATA[
-COMMAND: POST /session/5e06969b254e93bc6d446ed983927823/element - {"using":"css selector","value":"#searchButton"}
+COMMAND: POST /session/43399489bd2e25e29cea549de1cd0de4/element - {"using":"css selector","value":"#searchButton"}
 RESULT: {"using":"css selector","value":"#searchButton"}
-COMMAND: POST /session/5e06969b254e93bc6d446ed983927823/element/a58a935f-c82e-4ec7-96cd-d8277ad101ee/click - {}
+COMMAND: POST /session/43399489bd2e25e29cea549de1cd0de4/element/191189f6-5868-4b5d-b207-06ff4e601473/click - {}
 RESULT: {}
-COMMAND: POST /session/5e06969b254e93bc6d446ed983927823/element - {"using":"css selector","value":"#searchBox"}
+COMMAND: POST /session/43399489bd2e25e29cea549de1cd0de4/element - {"using":"css selector","value":"#searchBox"}
 RESULT: {"using":"css selector","value":"#searchBox"}
-COMMAND: POST /session/5e06969b254e93bc6d446ed983927823/element/e01fcd97-2196-4ef4-a26d-aed836086d96/value - {"text":"maryland ter, atlantic city, nj"}
+COMMAND: POST /session/43399489bd2e25e29cea549de1cd0de4/element/04896cdc-8f35-41a6-8e33-4da156fb9158/value - {"text":"maryland ter, atlantic city, nj"}
 RESULT: {"text":"maryland ter, atlantic city, nj"}
-COMMAND: POST /session/5e06969b254e93bc6d446ed983927823/element - {"using":"css selector","value":"#searchWidgetButton"}
+COMMAND: POST /session/43399489bd2e25e29cea549de1cd0de4/element - {"using":"css selector","value":"#searchWidgetButton"}
 RESULT: {"using":"css selector","value":"#searchWidgetButton"}
-COMMAND: POST /session/5e06969b254e93bc6d446ed983927823/element/352282ed-6965-4798-99d1-d08f48fb3a5f/click - {}
+COMMAND: POST /session/43399489bd2e25e29cea549de1cd0de4/element/0268ae5d-32f3-46f3-8638-6b8f79f45980/click - {}
 RESULT: {}
-COMMAND: POST /session/5e06969b254e93bc6d446ed983927823/element - {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+COMMAND: POST /session/43399489bd2e25e29cea549de1cd0de4/element - {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
 RESULT: {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
-COMMAND: POST /session/5e06969b254e93bc6d446ed983927823/elements - {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+COMMAND: POST /session/43399489bd2e25e29cea549de1cd0de4/elements - {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
 RESULT: {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
-COMMAND: POST /session/5e06969b254e93bc6d446ed983927823/elements - {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+COMMAND: POST /session/43399489bd2e25e29cea549de1cd0de4/elements - {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
 RESULT: {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
-COMMAND: POST /session/5e06969b254e93bc6d446ed983927823/elements - {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+COMMAND: POST /session/43399489bd2e25e29cea549de1cd0de4/element - {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
 RESULT: {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
-COMMAND: POST /session/5e06969b254e93bc6d446ed983927823/elements - {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
-RESULT: {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
-COMMAND: POST /session/5e06969b254e93bc6d446ed983927823/element - {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
-RESULT: {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
-COMMAND: POST /session/5e06969b254e93bc6d446ed983927823/element/f9ec3efc-dbb8-4e26-abf9-d0f11dab4944/click - {}
+COMMAND: POST /session/43399489bd2e25e29cea549de1cd0de4/element/8789759b-7429-4ad7-8d79-d901f7c833b1/click - {}
 RESULT: {}
-COMMAND: POST /session/5e06969b254e93bc6d446ed983927823/element - {"using":"xpath","value":"/html/body/div[12]/div[1]/div/a[2]/span"}
+COMMAND: POST /session/43399489bd2e25e29cea549de1cd0de4/element - {"using":"xpath","value":"/html/body/div[12]/div[1]/div/a[2]/span"}
 RESULT: {"using":"xpath","value":"/html/body/div[12]/div[1]/div/a[2]/span"}
-COMMAND: POST /session/5e06969b254e93bc6d446ed983927823/elements - {"using":"xpath","value":"/html/body/div[12]/div[1]/div/a[2]/span"}
+COMMAND: POST /session/43399489bd2e25e29cea549de1cd0de4/elements - {"using":"xpath","value":"/html/body/div[12]/div[1]/div/a[2]/span"}
 RESULT: {"using":"xpath","value":"/html/body/div[12]/div[1]/div/a[2]/span"}
-COMMAND: POST /session/5e06969b254e93bc6d446ed983927823/elements - {"using":"xpath","value":"/html/body/div[12]/div[1]/div/a[2]/span"}
+COMMAND: POST /session/43399489bd2e25e29cea549de1cd0de4/elements - {"using":"xpath","value":"/html/body/div[12]/div[1]/div/a[2]/span"}
 RESULT: {"using":"xpath","value":"/html/body/div[12]/div[1]/div/a[2]/span"}
-COMMAND: POST /session/5e06969b254e93bc6d446ed983927823/element - {"using":"xpath","value":"/html/body/div[12]/div[1]/div/a[2]/span"}
+COMMAND: POST /session/43399489bd2e25e29cea549de1cd0de4/element - {"using":"xpath","value":"/html/body/div[12]/div[1]/div/a[2]/span"}
 RESULT: {"using":"xpath","value":"/html/body/div[12]/div[1]/div/a[2]/span"}
-COMMAND: POST /session/5e06969b254e93bc6d446ed983927823/element/7f07daff-11cc-4922-b470-8d81e39240c5/click - {}
+COMMAND: POST /session/43399489bd2e25e29cea549de1cd0de4/element/459ffbdc-6d72-460c-8d10-5c338729ed21/click - {}
 RESULT: {}
-COMMAND: POST /session/5e06969b254e93bc6d446ed983927823/element - {"using":"css selector","value":"#identifyButton"}
+COMMAND: POST /session/43399489bd2e25e29cea549de1cd0de4/element - {"using":"css selector","value":"#identifyButton"}
 RESULT: {"using":"css selector","value":"#identifyButton"}
-COMMAND: POST /session/5e06969b254e93bc6d446ed983927823/element/f08aa6d4-7a34-4d8d-a72b-b336bdfc09f6/click - {}
+COMMAND: POST /session/43399489bd2e25e29cea549de1cd0de4/element/0f0feaba-31ca-46ce-a4b7-c4ae6e1077c8/click - {}
 RESULT: {}
-COMMAND: POST /session/5e06969b254e93bc6d446ed983927823/element - {"using":"xpath","value":"//*[@id=\"dijit_form_ComboButton_0_arrow\"]"}
+COMMAND: POST /session/43399489bd2e25e29cea549de1cd0de4/element - {"using":"xpath","value":"//*[@id=\"dijit_form_ComboButton_0_arrow\"]"}
 RESULT: {"using":"xpath","value":"//*[@id=\"dijit_form_ComboButton_0_arrow\"]"}
-COMMAND: GET /session/5e06969b254e93bc6d446ed983927823/element/43ad711c-cedf-4d24-82f0-98b9210ff3e2/rect - {}
+COMMAND: GET /session/43399489bd2e25e29cea549de1cd0de4/element/0a95acc3-17cf-49a9-83ed-4591ba6b2db1/rect - {}
 RESULT: {}
-COMMAND: POST /session/5e06969b254e93bc6d446ed983927823/actions - {"actions":[{"type":"pointer","id":"pointer1","parameters":{"pointerType":"mouse"},"actions":[{"type":"pointerMove","origin":{"sessionId":"5e06969b254e93bc6d446ed983927823","elementId":"43ad711c-cedf-4d24-82f0-98b9210ff3e2","element-6066-11e4-a52e-4f735466cecf":"43ad711c-cedf-4d24-82f0-98b9210ff3e2","selector":"//*[@id=\"dijit_form_ComboButton_0_arrow\"]","parent":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"84.0.4147.135","chrome":{"chromedriverVersion":"84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310})","userDataDir":"C:\\Users\\Alok's\\AppData\\Local\\Temp\\scoped_dir15892_2089747511"},"goog:chromeOptions":{"debuggerAddress":"localhost:51845"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"_":"5 more keys: [\"strictFileInteractability\",\"timeouts\",\"unhandledPromptBehavior\",\"webauthn:virtualAuthenticators\",\"webdriver.remote.sessionid\"]"},"config":{"specs":["./test/**/*.js"],"suites":{},"exclude":[],"logLevel":"info","logLevels":{},"excludeDriverLogs":[],"bail":0,"waitforInterval":500,"waitforTimeout":300000,"framework":"mocha","_":"40 more keys: [\"reporters\",\"services\",\"maxInstances\",\"maxInstancesPerCapability\",\"filesToWatch\",\"connectionRetryTimeout\",\"connectionRetryCount\",\"execArgv\",\"runnerEnv\",\"runner\",\"mochaOpts\",\"jasmineNodeOpts\",\"cucumberOpts\",\"onPrepare\",\"onWorkerStart\",\"before\",\"beforeSession\",\"beforeSuite\",\"beforeHook\",\"beforeTest\",\"beforeCommand\",\"afterCommand\",\"afterTest\",\"afterHook\",\"afterSuite\",\"afterSession\",\"after\",\"onComplete\",\"onReload\",\"beforeFeature\",\"beforeScenario\",\"beforeStep\",\"afterStep\",\"afterScenario\",\"afterFeature\",\"baseUrl\",\"_\",\"$0\",\"ignoredWorkerServices\",\"specFileRetryAttempts\"]"},"_NOT_FIBER":true},"isReactElement":false,"_NOT_FIBER":false},"x":25,"y":97},{"type":"pointerDown","button":0},{"type":"pointerUp","button":0}]}]}
-RESULT: {"actions":[{"type":"pointer","id":"pointer1","parameters":{"pointerType":"mouse"},"actions":[{"type":"pointerMove","origin":{"sessionId":"5e06969b254e93bc6d446ed983927823","elementId":"43ad711c-cedf-4d24-82f0-98b9210ff3e2","element-6066-11e4-a52e-4f735466cecf":"43ad711c-cedf-4d24-82f0-98b9210ff3e2","selector":"//*[@id=\"dijit_form_ComboButton_0_arrow\"]","parent":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"84.0.4147.135","chrome":{"chromedriverVersion":"84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310})","userDataDir":"C:\\Users\\Alok's\\AppData\\Local\\Temp\\scoped_dir15892_2089747511"},"goog:chromeOptions":{"debuggerAddress":"localhost:51845"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"_":"5 more keys: [\"strictFileInteractability\",\"timeouts\",\"unhandledPromptBehavior\",\"webauthn:virtualAuthenticators\",\"webdriver.remote.sessionid\"]"},"config":{"specs":["./test/**/*.js"],"suites":{},"exclude":[],"logLevel":"info","logLevels":{},"excludeDriverLogs":[],"bail":0,"waitforInterval":500,"waitforTimeout":300000,"framework":"mocha","_":"40 more keys: [\"reporters\",\"services\",\"maxInstances\",\"maxInstancesPerCapability\",\"filesToWatch\",\"connectionRetryTimeout\",\"connectionRetryCount\",\"execArgv\",\"runnerEnv\",\"runner\",\"mochaOpts\",\"jasmineNodeOpts\",\"cucumberOpts\",\"onPrepare\",\"onWorkerStart\",\"before\",\"beforeSession\",\"beforeSuite\",\"beforeHook\",\"beforeTest\",\"beforeCommand\",\"afterCommand\",\"afterTest\",\"afterHook\",\"afterSuite\",\"afterSession\",\"after\",\"onComplete\",\"onReload\",\"beforeFeature\",\"beforeScenario\",\"beforeStep\",\"afterStep\",\"afterScenario\",\"afterFeature\",\"baseUrl\",\"_\",\"$0\",\"ignoredWorkerServices\",\"specFileRetryAttempts\"]"},"_NOT_FIBER":true},"isReactElement":false,"_NOT_FIBER":false},"x":25,"y":97},{"type":"pointerDown","button":0},{"type":"pointerUp","button":0}]}]}
-COMMAND: DELETE /session/5e06969b254e93bc6d446ed983927823/actions - {}
+COMMAND: POST /session/43399489bd2e25e29cea549de1cd0de4/actions - {"actions":[{"type":"pointer","id":"pointer1","parameters":{"pointerType":"mouse"},"actions":[{"type":"pointerMove","origin":{"sessionId":"43399489bd2e25e29cea549de1cd0de4","elementId":"0a95acc3-17cf-49a9-83ed-4591ba6b2db1","element-6066-11e4-a52e-4f735466cecf":"0a95acc3-17cf-49a9-83ed-4591ba6b2db1","selector":"//*[@id=\"dijit_form_ComboButton_0_arrow\"]","parent":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"85.0.4183.102","chrome":{"chromedriverVersion":"84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310})","userDataDir":"C:\\Users\\Alok's\\AppData\\Local\\Temp\\scoped_dir17340_411820591"},"goog:chromeOptions":{"debuggerAddress":"localhost:64335"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"_":"5 more keys: [\"strictFileInteractability\",\"timeouts\",\"unhandledPromptBehavior\",\"webauthn:virtualAuthenticators\",\"webdriver.remote.sessionid\"]"},"config":{"specs":["./test/**/*.js"],"suites":{},"exclude":[],"logLevel":"info","logLevels":{},"excludeDriverLogs":[],"bail":0,"waitforInterval":500,"waitforTimeout":300000,"framework":"mocha","_":"40 more keys: [\"reporters\",\"services\",\"maxInstances\",\"maxInstancesPerCapability\",\"filesToWatch\",\"connectionRetryTimeout\",\"connectionRetryCount\",\"execArgv\",\"runnerEnv\",\"runner\",\"mochaOpts\",\"jasmineNodeOpts\",\"cucumberOpts\",\"onPrepare\",\"onWorkerStart\",\"before\",\"beforeSession\",\"beforeSuite\",\"beforeHook\",\"beforeTest\",\"beforeCommand\",\"afterCommand\",\"afterTest\",\"afterHook\",\"afterSuite\",\"afterSession\",\"after\",\"onComplete\",\"onReload\",\"beforeFeature\",\"beforeScenario\",\"beforeStep\",\"afterStep\",\"afterScenario\",\"afterFeature\",\"baseUrl\",\"_\",\"$0\",\"ignoredWorkerServices\",\"specFileRetryAttempts\"]"},"_NOT_FIBER":true},"isReactElement":false,"_NOT_FIBER":false},"x":25,"y":97},{"type":"pointerDown","button":0},{"type":"pointerUp","button":0}]}]}
+RESULT: {"actions":[{"type":"pointer","id":"pointer1","parameters":{"pointerType":"mouse"},"actions":[{"type":"pointerMove","origin":{"sessionId":"43399489bd2e25e29cea549de1cd0de4","elementId":"0a95acc3-17cf-49a9-83ed-4591ba6b2db1","element-6066-11e4-a52e-4f735466cecf":"0a95acc3-17cf-49a9-83ed-4591ba6b2db1","selector":"//*[@id=\"dijit_form_ComboButton_0_arrow\"]","parent":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"85.0.4183.102","chrome":{"chromedriverVersion":"84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310})","userDataDir":"C:\\Users\\Alok's\\AppData\\Local\\Temp\\scoped_dir17340_411820591"},"goog:chromeOptions":{"debuggerAddress":"localhost:64335"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"_":"5 more keys: [\"strictFileInteractability\",\"timeouts\",\"unhandledPromptBehavior\",\"webauthn:virtualAuthenticators\",\"webdriver.remote.sessionid\"]"},"config":{"specs":["./test/**/*.js"],"suites":{},"exclude":[],"logLevel":"info","logLevels":{},"excludeDriverLogs":[],"bail":0,"waitforInterval":500,"waitforTimeout":300000,"framework":"mocha","_":"40 more keys: [\"reporters\",\"services\",\"maxInstances\",\"maxInstancesPerCapability\",\"filesToWatch\",\"connectionRetryTimeout\",\"connectionRetryCount\",\"execArgv\",\"runnerEnv\",\"runner\",\"mochaOpts\",\"jasmineNodeOpts\",\"cucumberOpts\",\"onPrepare\",\"onWorkerStart\",\"before\",\"beforeSession\",\"beforeSuite\",\"beforeHook\",\"beforeTest\",\"beforeCommand\",\"afterCommand\",\"afterTest\",\"afterHook\",\"afterSuite\",\"afterSession\",\"after\",\"onComplete\",\"onReload\",\"beforeFeature\",\"beforeScenario\",\"beforeStep\",\"afterStep\",\"afterScenario\",\"afterFeature\",\"baseUrl\",\"_\",\"$0\",\"ignoredWorkerServices\",\"specFileRetryAttempts\"]"},"_NOT_FIBER":true},"isReactElement":false,"_NOT_FIBER":false},"x":25,"y":97},{"type":"pointerDown","button":0},{"type":"pointerUp","button":0}]}]}
+COMMAND: DELETE /session/43399489bd2e25e29cea549de1cd0de4/actions - {}
 RESULT: {}
-COMMAND: POST /session/5e06969b254e93bc6d446ed983927823/element - {"using":"xpath","value":"//*[@id=\"identifyLayerName\"]/b"}
+COMMAND: POST /session/43399489bd2e25e29cea549de1cd0de4/element - {"using":"xpath","value":"//*[@id=\"identifyLayerName\"]/b"}
 RESULT: {"using":"xpath","value":"//*[@id=\"identifyLayerName\"]/b"}
-COMMAND: GET /session/5e06969b254e93bc6d446ed983927823/element/6fe4d7fa-54b3-49e0-9e65-c249164d8608/text - {}
+COMMAND: GET /session/43399489bd2e25e29cea549de1cd0de4/element/b61ce06f-9d64-4536-ae90-0921a9faac22/text - {}
 RESULT: {}
-COMMAND: DELETE /session/5e06969b254e93bc6d446ed983927823 - {}
+COMMAND: GET /session/43399489bd2e25e29cea549de1cd0de4/screenshot - {}
+RESULT: {}
+COMMAND: DELETE /session/43399489bd2e25e29cea549de1cd0de4 - {}
 RESULT: {}
 ]]>
       </system-out>
+      <system-err>
+        <![CDATA[
+AssertionError: expected 'Main Assets' to equal 'Division Locations'
+    at Context.<anonymous> (C:\Users\Alok's\Documents\WebDriverIO\test\identify.test.js:20:16)
+    at Context.executeSync (C:\Users\Alok's\Documents\WebDriverIO\node_modules\@wdio\sync\build\index.js:56:18)
+    at C:\Users\Alok's\Documents\WebDriverIO\node_modules\@wdio\sync\build\index.js:82:70
+]]>
+      </system-err>
     </testcase>
   </testsuite>
 </testsuites>

@@ -19,9 +19,9 @@ describe("Verifying document finder count displayed", function(){
         var mainAsbCountFooter = sjgFieldbookPages.checkFooterCount()
         assert.equal(mainAsbCountFooter, mainAsbCountHeader)
         sjgFieldbookPages.searchByTownStreetDocumentFinder('Cape May City' ,'Falcon Ridge Rd')
-        browser.pause(3000)
+        browser.pause(5000)
         var serviceAsbCountHeader = sjgFieldbookPages.checkServiceAsbuiltCountDocumentHeader() //count for service asbuilt in documents tab
-        browser.pause(10000)
+        browser.pause(7000)
         var serviceAsbCountFooter = sjgFieldbookPages.checkFooterCount()
         assert.equal(serviceAsbCountFooter, serviceAsbCountHeader)
         

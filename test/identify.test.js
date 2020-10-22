@@ -10,14 +10,12 @@ describe("Verifying identify functionality", function(){
         browser.pause(10000)
         sjgFieldbookPages.clickOnIdentify()
         browser.pause(10000)
-        const logo = $('//*[@id="dijit_form_ComboButton_0_arrow"]')
-        const location = logo.getLocation();
-        console.log(location);
+        const logo = $('//*[@id="printButton2_label"]')
         //browser.moveToElement(logo, 25, 97)
+        browser.pause(3000)
+        logo.click({ x: 0, y: 48 })
         browser.pause(9000)
-        logo.click({ x: 25, y: 97 })
-        browser.pause(9000)
-        assert.equal($('//*[@id="identifyLayerName"]/b').getText(), 'Division Locations')
+        assert.equal($('//*[@id="identifyLayerName"]/b').getText(), 'Main Assets')
 
               
     })

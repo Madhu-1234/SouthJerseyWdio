@@ -7,11 +7,11 @@ const fs = require("fs");
 //attachment = fs.readFileSync(pathToAttachment).toString("base64");
 
 const msg = {
-  to: ['madhu@shrisaitechnology.com', 'madhusmita.m12@gmail.com'],
+  to: ['madhu@shrisaitechnology.com', 'madhusmita.m12@gmail.com', 'AbdulKader.Lashkarwala@mottmac.com'],
   from: 'fbsupport@mottmac.com', // Use the email address or domain you verified above
-  subject: 'SJG Automation test run results[PLEASE VIEW THE LINK]',
+  subject: 'SJG Automation test run results',
   text: 'Link to SJG Automation test run.',
-  html: '<strong>https://confident-tereshkova-ea64c9.netlify.app/</strong>',
+  html: 'Automated test suite has been executed successfully and report has been uploaded to - <strong>https://confident-tereshkova-ea64c9.netlify.app/</strong>',
  
 };
 

@@ -10,107 +10,107 @@ class sjgFieldbookPage{
     get search() { return $('#searchButton') }
     get identifyButton() { return $('#identifyButton') }
     get streetView() { return $('#streetviewButton_label') }
-    get print() {return $('//*[@id="dijit_form_ComboButton_1_label"]') }
+    get print() {return $('//*[@id="printButton2_label"]') }
     /*
     ***Object repository of legend elements
     */
-    get allOtherValues_points_legend() {return $('//*[@id="agsjs_dijit__TOCNode_4"]/div/span/span[2]')}
-    get approved_points_legend() {return $('//*[@id="agsjs_dijit__TOCNode_5"]/div/span/span[2]')}
-    get arrivedOnSite_points_legend() {return $('//*[@id="agsjs_dijit__TOCNode_6"]/div/span/span[2]')}
-    get canceled_points_legend() {return $('//*[@id="agsjs_dijit__TOCNode_7"]/div/span/span[2]')}
-    get closed_points_legend() {return $('//*[@id="agsjs_dijit__TOCNode_8"]/div/span/span[2]')}
-    get completed_points_legend() {return $('//*[@id="agsjs_dijit__TOCNode_9"]/div/span/span[2]')}
-    get designComplete_points_legend() {return $('//*[@id="agsjs_dijit__TOCNode_10"]/div/span/span[2]')}
-    get editedInHistory_points_legend() {return $('//*[@id="agsjs_dijit__TOCNode_11"]/div/span/span[2]')}
-    get fieldComplete_points_legend() {return $('//*[@id="agsjs_dijit__TOCNode_12"]/div/span/span[2]')}
-    get hold_points_legend() {return $('//*[@id="agsjs_dijit__TOCNode_13"]/div/span/span[2]')}
-    get inDesign_points_legend() {return $('//*[@id="agsjs_dijit__TOCNode_14"]/div/span/span[2]')}
-    get inProgressStart_points_legend() {return $('//*[@id="agsjs_dijit__TOCNode_15"]/div/span/span[2]')}
-    get pending_points_legend() {return $('//*[@id="agsjs_dijit__TOCNode_16"]/div/span/span[2]')}
-    get permitting_points_legend() {return $('//*[@id="agsjs_dijit__TOCNode_17"]/div/span/span[2]')}
-    get reviewCompletedWorkOrder_points_legend() {return $('//*[@id="agsjs_dijit__TOCNode_18"]/div/span/span[2]')}
-    get scheduled_points_legend() {return $('//*[@id="agsjs_dijit__TOCNode_19"]/div/span/span[2]')}   
-    get supervisorComplete_points_legend() {return $('//*[@id="agsjs_dijit__TOCNode_20"]/div/span/span[2]')}   
-    get supervisorComplete_2SupReq_points_legend() {return $('//*[@id="agsjs_dijit__TOCNode_21"]/div/span/span[2]')} 
-    get suspend_points_legend() {return $('//*[@id="agsjs_dijit__TOCNode_22"]/div/span/span[2]')}  
-    get waitOnApproval_points_legend() {return $('//*[@id="agsjs_dijit__TOCNode_23"]/div/span/span[2]')} 
-    get waitOnMaterial_points_legend() {return $('//*[@id="agsjs_dijit__TOCNode_24"]/div/span/span[2]')} 
-    get waitToBeSched_points_legend() {return $('//*[@id="agsjs_dijit__TOCNode_25"]/div/span/span[2]')} 
+    get allOtherValues_points_legend() {return $('(//span[text()="<all other values>"])[1]')}
+    get approved_points_legend() {return $('(//span[text()="Approved"])[1]')}
+    get arrivedOnSite_points_legend() {return $('(//span[text()="Arrived on Site"])[1]')}
+    get canceled_points_legend() {return $('(//span[text()="Canceled"])[1]')}
+    get closed_points_legend() {return $('(//span[text()="Closed"])[1]')}
+    get completed_points_legend() {return $('(//span[text()="Completed"])[1]')}
+    get designComplete_points_legend() {return $('(//span[text()="Design Complete"])[1]')}
+    get editedInHistory_points_legend() {return $('(//span[text()="Edited in History"])[1]')}
+    get fieldComplete_points_legend() {return $('(//span[text()="Field Complete"])[1]')}
+    get hold_points_legend() {return $('(//span[text()="Hold"])[1]')}
+    get inDesign_points_legend() {return $('(//span[text()="In Design"])[1]')}
+    get inProgressStart_points_legend() {return $('(//span[text()="In Progress (Start)"])[1]')}
+    get pending_points_legend() {return $('(//span[text()="Pending"])[1]')}
+    get permitting_points_legend() {return $('(//span[text()="Permitting"])[1]')}
+    get reviewCompletedWorkOrder_points_legend() {return $('(//span[text()="Review Completed Work Order"])[1]')}
+    get scheduled_points_legend() {return $('(//span[text()="Scheduled"])[1]')}   
+    get supervisorComplete_points_legend() {return $('(//span[text()="Supervisor Complete"])[1]')}   
+    get supervisorComplete_2SupReq_points_legend() {return $('(//span[text()="Supervisor Complete (2 Supervisors Required)"])[1]')} 
+    get suspend_points_legend() {return $('(//span[text()="Suspend"])[1]')}  
+    get waitOnApproval_points_legend() {return $('(//span[text()="Waiting on Approval"])[1]')} 
+    get waitOnMaterial_points_legend() {return $('(//span[text()="Waiting on Material"])[1]')} 
+    get waitToBeSched_points_legend() {return $('(//span[text()="Waiting to be Scheduled"])[1]')} 
 
 
-    get allOtherValues_polygons_legend() {return $('//*[@id="agsjs_dijit__TOCNode_30"]/div/span/span[2]')}
-    get approved_polygons_legend() {return $('//*[@id="agsjs_dijit__TOCNode_31"]/div/span/span[2]')}
-    get arrivedOnSite_polygons_legend() {return $('//*[@id="agsjs_dijit__TOCNode_32"]/div/span/span[2]')}
-    get canceled_polygons_legend() {return $('//*[@id="agsjs_dijit__TOCNode_33"]/div/span/span[2]')}
-    get closed_polygons_legend() {return $('//*[@id="agsjs_dijit__TOCNode_34"]/div/span/span[2]')}
-    get completed_polygons_legend() {return $('//*[@id="agsjs_dijit__TOCNode_35"]/div/span/span[2]')}
-    get designComplete_polygons_legend() {return $('//*[@id="agsjs_dijit__TOCNode_36"]/div/span/span[2]')}
-    get editedInHistory_polygons_legend() {return $('//*[@id="agsjs_dijit__TOCNode_37"]/div/span/span[2]')}
-    get fieldComplete_polygons_legend() {return $('//*[@id="agsjs_dijit__TOCNode_38"]/div/span/span[2]')}
-    get hold_polygons_legend() {return $('//*[@id="agsjs_dijit__TOCNode_39"]/div/span/span[2]')}
-    get inDesign_polygons_legend() {return $('//*[@id="agsjs_dijit__TOCNode_40"]/div/span/span[2]')}
-    get inProgresStart_polygons_legend() {return $('//*[@id="agsjs_dijit__TOCNode_41"]/div/span/span[2]')}
-    get pending_polygons_legend() {return $('//*[@id="agsjs_dijit__TOCNode_42"]/div/span/span[2]')}
-    get permitting_polygons_legend() {return $('//*[@id="agsjs_dijit__TOCNode_43"]/div/span/span[2]')}
-    get reviewCompletedWorkOrder_polygons_legend() {return $('//*[@id="agsjs_dijit__TOCNode_44"]/div/span/span[2]')}
-    get scheduled_polygons_legend() {return $('//*[@id="agsjs_dijit__TOCNode_45"]/div/span/span[2]')}
-    get supervisorComplete_polygons_legend() {return $('//*[@id="agsjs_dijit__TOCNode_46"]/div/span/span[2]')}
-    get supervisorComplete_2SupReqd_polygons_legend() {return $('//*[@id="agsjs_dijit__TOCNode_47"]/div/span/span[2]')}
-    get suspend_polygons_legend() {return $('//*[@id="agsjs_dijit__TOCNode_48"]/div/span/span[2]')}
-    get waitingOnApproval_polygons_legend() {return $('//*[@id="agsjs_dijit__TOCNode_49"]/div/span/span[2]')}
-    get waitingOnMaterial_polygons_legend() {return $('//*[@id="agsjs_dijit__TOCNode_50"]/div/span/span[2]')}
-    get waitingToBeScheduled_polygons_legend() {return $('//*[@id="agsjs_dijit__TOCNode_51"]/div/span/span[2]')}
+    get allOtherValues_polygons_legend() {return $('(//span[text()="<all other values>"])[2]')}
+    get approved_polygons_legend() {return $('(//span[text()="Approved"])[2]')}
+    get arrivedOnSite_polygons_legend() {return $('(//span[text()="Arrived on Site"])[2]')}
+    get canceled_polygons_legend() {return $('(//span[text()="Canceled"])[2]')}
+    get closed_polygons_legend() {return $('(//span[text()="Closed"])[2]')}
+    get completed_polygons_legend() {return $('(//span[text()="Completed"])[2]')}
+    get designComplete_polygons_legend() {return $('(//span[text()="Design Complete"])[2]')}
+    get editedInHistory_polygons_legend() {return $('(//span[text()="Edited in History"])[2]')}
+    get fieldComplete_polygons_legend() {return $('(//span[text()="Field Complete"])[2]')}
+    get hold_polygons_legend() {return $('(//span[text()="Hold"])[2]')}
+    get inDesign_polygons_legend() {return $('(//span[text()="In Design"])[2]')}
+    get inProgresStart_polygons_legend() {return $('(//span[text()="In Progress (Start)"])[2]')}
+    get pending_polygons_legend() {return $('(//span[text()="Pending"])[2]')}
+    get permitting_polygons_legend() {return $('(//span[text()="Permitting"])[2]')}
+    get reviewCompletedWorkOrder_polygons_legend() {return $('(//span[text()="Review Completed Work Order"])[2]')}
+    get scheduled_polygons_legend() {return $('(//span[text()="Scheduled"])[2]')}
+    get supervisorComplete_polygons_legend() {return $('(//span[text()="Supervisor Complete"])[2]')}
+    get supervisorComplete_2SupReqd_polygons_legend() {return $('(//span[text()="Supervisor Complete (2 Supervisors Required)"])[2]')}
+    get suspend_polygons_legend() {return $('(//span[text()="Suspend"])[2]')}
+    get waitingOnApproval_polygons_legend() {return $('(//span[text()="Waiting on Approval"])[2]')}
+    get waitingOnMaterial_polygons_legend() {return $('(//span[text()="Waiting on Material"])[2]')}
+    get waitingToBeScheduled_polygons_legend() {return $('(//span[text()="Waiting to be Scheduled"])[2]')}
 
-    get premiseLocations_legend() {return $('//*[@id="agsjs_dijit__TOCNode_55"]/div/span/span[2]')}
-    get nonInsulators_legend() {return $('//*[@id="agsjs_dijit__TOCNode_57"]/div/span/span[2]')}
-    get aST25_legend() {return $('//*[@id="agsjs_dijit__TOCNode_58"]/div/span/span[2]')}
-    get aST26_legend() {return $('//*[@id="agsjs_dijit__TOCNode_59"]/div/span/span[2]')}
-    get aST57_legend() {return $('//*[@id="agsjs_dijit__TOCNode_60"]/div/span/span[2]')}
-    get aST77_legend() {return $('//*[@id="agsjs_dijit__TOCNode_61"]/div/span/span[2]')}
-    get insul_legend() {return $('//*[@id="agsjs_dijit__TOCNode_62"]/div/span/span[2]')}
-    get meterAsset_legend() {return $('//*[@id="agsjs_dijit__TOCNode_63"]/div/span/span[2]')}
-    get valveAsset_legend() {return $('//*[@id="agsjs_dijit__TOCNode_64"]/div/span/span[2]')}
+    get premiseLocations_legend() {return $('//span[text()="Premise Locations"]')}
+    get nonInsulators_legend() {return $('//span[text()="Non-Insulators"]')}
+    get aST25_legend() {return $('//span[text()="AST-25"]')}
+    get aST26_legend() {return $('//span[text()="AST-26"]')}
+    get aST57_legend() {return $('//span[text()="AST-57"]')}
+    get aST77_legend() {return $('//span[text()="AST-77"]')}
+    get insul_legend() {return $('//span[text()="INSUL"]')}
+    get meterAsset_legend() {return $('//span[text()="Meter Assets"]')}
+    get valveAsset_legend() {return $('//span[text()="Valve Assets"]')}
     
-    get rectifierAsset_legend() {return $('//*[@id="agsjs_dijit__TOCNode_65"]/div/span/span[2]')}
-    get dripAsset_legend() {return $('//*[@id="agsjs_dijit__TOCNode_66"]/div/span/span[2]')}
-    get unrepairedLeakLocation_legend() {return $('//*[@id="agsjs_dijit__TOCNode_67"]/div/span/span[2]')}
-    get repairedLeakLocation_legend() {return $('//*[@id="agsjs_dijit__TOCNode_68"]/div/span/span[2]')}
-    get serviceAddresses_legend() {return $('//*[@id="agsjs_dijit__TOCNode_69"]/div/span/span[2]')}
-    get serviceAddressesLocations_legend() {return $('//*[@id="agsjs_dijit__TOCNode_70"]/div/span/span[2]')}
+    get rectifierAsset_legend() {return $('//span[text()="Rectifier Assets"]')}
+    get dripAsset_legend() {return $('//span[text()="Drip Assets"]')}
+    get unrepairedLeakLocation_legend() {return $('//span[text()="Unrepaired Leak Locations"]')}
+    get repairedLeakLocation_legend() {return $('//span[text()="Repaired Leak Locations"]')}
+    get serviceAddresses_legend() {return $('//span[text()="Service Addresses"]')}
+    get serviceAddressesLocations_legend() {return $('//span[text()="Service Address Locations"]')}
     
-    get cpSystemsLocations_legend() {return $('//*[@id="agsjs_dijit__TOCNode_72"]/div/span/span[2]')}
-    get pipeLineSegmentLocations_legend() {return $('//*[@id="agsjs_dijit__TOCNode_73"]/div/span/span[2]')}
-    get serviceAssetsOperating_legend() {return $('//*[@id="agsjs_dijit__TOCNode_74"]/div/span/span[2]')}
-    get serviceAssetsRetired_legend() {return $('//*[@id="agsjs_dijit__TOCNode_78"]/div/span/span[2]')}
+    get cpSystemsLocations_legend() {return $('//span[text()="CP System Locations"]')}
+    get pipeLineSegmentLocations_legend() {return $('//span[text()="Pipeline Segment Locations"]')}
+    get serviceAssetsOperating_legend() {return $('//span[text()="Service Assets - Operating"]')}
+    get serviceAssetsRetired_legend() {return $('//span[text()="Service Assets - Retired"]')}
      
-    get null_mainAssets_legend() {return $('//*[@id="agsjs_dijit__TOCNode_80"]/div/span/span[2]')}
-    get lpLow_mainAssets_legend() {return $('//*[@id="agsjs_dijit__TOCNode_81"]/div/span/span[2]')}
-    get mpMed_mainAssets_legend() {return $('//*[@id="agsjs_dijit__TOCNode_82"]/div/span/span[2]')}
-    get hpHigh_mainAssets_legend() {return $('//*[@id="agsjs_dijit__TOCNode_83"]/div/span/span[2]')}
+    get null_mainAssets_legend() {return $('//span[text()="<Null>"]')}
+    get lpLow_mainAssets_legend() {return $('//span[text()="LP - LOW"]')}
+    get mpMed_mainAssets_legend() {return $('//span[text()="MP - MEDIUM"]')}
+    get hpHigh_mainAssets_legend() {return $('//span[text()="HP - HIGH"]')}
 
-    get epElevated_legend() {return $('//*[@id="agsjs_dijit__TOCNode_84"]/div/span/span[2]')}
-    get trans_legend() {return $('//*[@id="agsjs_dijit__TOCNode_85"]/div/span/span[2]')}
-    get farmTapLocations_legend() {return $('//*[@id="agsjs_dijit__TOCNode_86"]/div/span/span[2]')}
-    get blockValveLocations_legend() {return $('//*[@id="agsjs_dijit__TOCNode_87"]/div/span/span[2]')}
-    get distributionRegStationLoc_legend() {return $('//*[@id="agsjs_dijit__TOCNode_88"]/div/span/span[2]')}
-    get districtRegStationLoc_legend() {return $('//*[@id="agsjs_dijit__TOCNode_89"]/div/span/span[2]')}
-    get gateStationLocations_legend() {return $('//*[@id="agsjs_dijit__TOCNode_90"]/div/span/span[2]')}
-    get transmissionCustLoc_legend() {return $('//*[@id="agsjs_dijit__TOCNode_91"]/div/span/span[2]')}
-    get divisionLocations_legend() {return $('//*[@id="agsjs_dijit__TOCNode_93"]/div/span/span[2]')}
-    get municipalityLocations_legend() {return $('//*[@id="agsjs_dijit__TOCNode_94"]/div/span/span[2]')}
-    get plateMapLocations_legend() {return $('//*[@id="agsjs_dijit__TOCNode_95"]/div/span/span[2]')}
+    get epElevated_legend() {return $('//span[text()="EP - ELEVATED"]')}
+    get trans_legend() {return $('//span[text()="TRANS - TRANSMISSION"]')}
+    get farmTapLocations_legend() {return $('//span[text()="Farm Tap Locations"]')}
+    get blockValveLocations_legend() {return $('//span[text()="Block Valve Locations"]')}
+    get distributionRegStationLoc_legend() {return $('//span[text()="Distribution Regulator Station Locations"]')}
+    get districtRegStationLoc_legend() {return $('//span[text()="District Regulator Station Locations"]')}
+    get gateStationLocations_legend() {return $('//span[text()="Gate Station Locations"]')}
+    get transmissionCustLoc_legend() {return $('//span[text()="Transmission Customer Locations"]')}
+    get divisionLocations_legend() {return $('//span[text()="Division Locations"]')}
+    get municipalityLocations_legend() {return $('//span[text()="Municipality Locations"]')}
+    get plateMapLocations_legend() {return $('//span[text()="Plate Map Locations"]')}
 
-    get pinelandsBoundary_legend() {return $('//*[@id="agsjs_dijit__TOCNode_97"]/div/span/span[2]')}
-    get cafraBoundary_legend() {return $('//*[@id="agsjs_dijit__TOCNode_98"]/div/span/span[2]')}
-    get roadCenterlines_legend() {return $('//*[@id="agsjs_dijit__TOCNode_99"]/div/span/span[2]')}
-    get parcelLabels_legend() {return $('//*[@id="agsjs_dijit__TOCNode_116"]/div/span/span[2]')}
-    get parcels_legend() {return $('//*[@id="agsjs_dijit__TOCNode_117"]/div/span/span[2]')}
-    get moritoriumLocations_legend() {return $('//*[@id="agsjs_dijit__TOCNode_118"]/div/span/span[2]')}
-    get moritoriumLocationsNotReady_legend() {return $('//*[@id="agsjs_dijit__TOCNode_119"]/div/span/span[2]')}
-    get femaFloodHazardLayerGroup_legend() {return $('//*[@id="agsjs_dijit__TOCNode_120"]/div/span/span[2]')}
-    get tideLandLayer_legend() {return $('//*[@id="agsjs_dijit__TOCNode_155"]/div/span/span[2]')}
-    get landUseLandCoverWetland_legend() {return $('//*[@id="agsjs_dijit__TOCNode_156"]/div/span/span[2]')}
-    get sjgPlateMosaics_legend() {return $('//*[@id="agsjs_dijit__TOCNode_0"]/div[1]/span/span[2]')}
+    get pinelandsBoundary_legend() {return $('//span[text()="Pinelands Boundary"]')}
+    get cafraBoundary_legend() {return $('//span[text()="CAFRA Boundary"]')}
+    get roadCenterlines_legend() {return $('//span[text()="Road Centerlines"]')}
+    get parcelLabels_legend() {return $('//span[text()="Parcel Labels"]')}
+    get parcels_legend() {return $('//span[text()="Parcels"]')}
+    get moritoriumLocations_legend() {return $('//span[text()="Moritorium Location"]')}
+    get moritoriumLocationsNotReady_legend() {return $('//span[text()="Moritorium Location"]')}
+    get femaFloodHazardLayerGroup_legend() {return $('//span[text()="Moritorium Locations - Not Ready Status"]')}
+    get tideLandLayer_legend() {return $('//span[text()="Tidelands Layer"]')}
+    get landUseLandCoverWetland_legend() {return $('//span[text()="Land Use Land Cover Wetlands 2012"]')}
+    get sjgPlateMosaics_legend() {return $('//span[text()="SJG/SJG_PLATES_MOSAIC"]')}
 
     /*
     ***Object repository of basemap elements
@@ -144,7 +144,7 @@ class sjgFieldbookPage{
     get searchBar() {return $('#searchBox')}
     get searchGridResult() {return $('//*[@id="kendoSearchGrid"]/div[4]/table/tbody/tr')}
     get searchButton_searchWindow() {return $('#searchWidgetButton')}
-    get searchWindowClose() {return $('/html/body/div[12]/div[1]/div/a[2]/span')}
+    get searchWindowClose() {return $('/html/body/div[13]/div[1]/div/a[2]/span')}
     get featureSearchDrpdown() {return $('//*[@id="featureSearchRow"]/div[1]/span')}
     get featureSearchFieldDrpdown() {return $('//*[@id="featureSearchRow"]/div[2]/span')}
     get featureRadioBtn() {return $('//*[@id="featureRadionButton"]/div')}

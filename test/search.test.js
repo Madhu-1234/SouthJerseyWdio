@@ -27,8 +27,8 @@ describe("Verifying feature and reverse geocode", function(){
         logo.click({ x: 600, y: 200})
         var x_loc = $('//*[@id="kendoSearchGrid"]/div[4]/table/tbody/tr/td[2]').getText()
         var y_loc = $('//*[@id="kendoSearchGrid"]/div[4]/table/tbody/tr/td[3]').getText()
-        //assert.equal(x_loc , '-74.42348052200978')
-        //assert.equal(y_loc , '39.36849065761253')
+        assert.isNotNull(x_loc , 'x coordinate is null')
+        assert.isNotNull(y_loc , 'y coordinate is null')
         browser.pause(9000)   
     })
 

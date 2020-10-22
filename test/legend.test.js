@@ -11,9 +11,10 @@ describe("Verifying legend components", function(){
         sjgFieldbookPages.clickLegend()
         sjgFieldbookPages.valveAsset_legend.waitForDisplayed()
         
+        
         /*
         ***Validating different layers are displayed in the legend pane
-        */
+          */
         assert.equal(true, sjgFieldbookPages.allOtherValues_points_legend.isDisplayed())
         assert.equal(true, sjgFieldbookPages.approved_points_legend.isDisplayed())
         assert.equal(true, sjgFieldbookPages.arrivedOnSite_points_legend.isDisplayed())
@@ -108,9 +109,9 @@ describe("Verifying legend components", function(){
         assert.equal(true, sjgFieldbookPages.femaFloodHazardLayerGroup_legend.isDisplayed())
         assert.equal(true, sjgFieldbookPages.tideLandLayer_legend.isDisplayed())
         assert.equal(true, sjgFieldbookPages.landUseLandCoverWetland_legend.isDisplayed())
-        //assert.equal(true, sjgFieldbookPages.sjgPlateMosaics_legend.isDisplayed())  
+        assert.equal(true, sjgFieldbookPages.sjgPlateMosaics_legend.isDisplayed())  
 
-      
+    
     })
 
 })

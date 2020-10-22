@@ -4,15 +4,23 @@ const { assert, expect } = require("chai")
 
 describe("Verifying print functionality", function(){
 
-    it.skip("Should display a new pdf tab for print", ()=>{
+    it("Should display and print preview window ", ()=>{
 
-        sjgFieldbookPages.zoomToEnableLegend()
-        sjgFieldbookPages.clickBaseMap()
+        
         /*
-        ***Validating different basemaps are displayed
+        ***Validating print button is clickable and print preview screen is displayed
         */
-        browser.pause(4000)
-        sjgFieldbookPages.print.click()
+            sjgFieldbookPages.print.waitForDisplayed()
+            assert.equal(true, sjgFieldbookPages.print.isClickable())
+            browser.pause(3000)
+            sjgFieldbookPages.print.click()
+            browser.pause(8000)
+            
+            var ID = []
+            ID = browser.getWindowHandles()
+            var size = ID.length
+            assert.equal(size, 3)
+            
     })
 
 })

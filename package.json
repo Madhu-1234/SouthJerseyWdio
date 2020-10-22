@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/wdio wdio.conf.js",
-    "test-prod": "./node_modules/.bin/wdio wdioProd.conf.js",
+    "test-prod": "./node_modules/.bin/wdio wdio.conf-Prod.js",
     "allure-report": "allure generate --clean && allure open",
     "clean": "npm run cleandir",
     "cleandir": "cleandir allure-results",
@@ -31,7 +31,7 @@
     "mochawesome": "^6.1.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "wdio-chromedriver-service": "^6.0.3",
+    "wdio-chromedriver-service": "^6.0.4",
     "wdio-image-comparison-service": "^1.13.6",
     "wdio-jira-service": "^0.2.0",
     "wdio-mochawesome-reporter": "^4.0.0",
