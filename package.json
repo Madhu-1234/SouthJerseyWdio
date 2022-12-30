@@ -14,7 +14,7 @@
   "author": "Madhusmita Mishra",
   "license": "ISC",
   "devDependencies": {
-    "@rpii/wdio-html-reporter": "^6.0.6",
+    "@rpii/wdio-html-reporter": "^6.4.0",
     "@wdio/allure-reporter": "^6.1.23",
     "@wdio/concise-reporter": "^6.4.0",
     "@wdio/dot-reporter": "^6.3.0",
